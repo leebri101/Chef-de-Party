@@ -1,7 +1,7 @@
 # **Chef De Partie**
 ## **Site Preview**
 <!-->
-### Click here for the live page https://leebri101.github.io/Tech-Savvy/
+### Click here for the live page 
 ## Contents-Page:
 1. [**Project-Planning**](#project-planning)
     * [**Target Audiences**](#target-audiences)
