@@ -1,4 +1,4 @@
-# **Chef de Partie**
+# **Chef de Party**
 ## **Site Preview**
 <!-->
 ### Click here for the live page 
