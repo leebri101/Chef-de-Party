@@ -208,4 +208,5 @@ This project was a nice refresher for my self to be able to gauge at how much i 
 *  Armored core 6 logo [Armored Core Fandom](https://armoredcore.fandom.com/wiki/ARMORED_CORE_VI_FIRES_OF_RUBICON/Emblems).
 * Px to rem/em converter [NekoCalc](https://nekocalc.com/px-to-rem-converter).
 * For styling color identifier [Color Hex](https://www.color-hex.com/) 
-* Image finder [Unsplash](https://unsplash.com/)
+* Background 
+Image [Unsplash](https://unsplash.com/photos/stainless-steel-cooking-pots-on-stove-0EkWTSFXwCc)
