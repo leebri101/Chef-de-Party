@@ -43,5 +43,113 @@ const quizQuestions = [
         questionText: "What do you need to make a roux?",
         choices: ["Flour/Butter/Milk", "Some sort of stock/flour/Milk", "Red Wine?? It sounds french?", "Maybe buy it from the store?"],
         correctAns: "Flour/Butter/Milk"
-    }
+    },
+    {
+        questionNum: "6",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "7",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "8",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "9",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "10",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "11",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "12",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "13",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "14",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "15",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "16",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "17",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "18",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "19",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "20",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "21",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "22",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
+    {
+        questionNum: "23",
+        questionText: "",
+        choices: ["", "", "", ""],
+        correctAns: ""
+    },
 ];
