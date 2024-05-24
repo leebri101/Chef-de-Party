@@ -12,25 +12,36 @@
  * Unintuitive for casual users or with little to no knowledge.
  */
 
-const quizQuestions = [{
-    questionNum: "1",
-    questionText: “How many different ways can you ingredients ?”,
-    choices: [
-      “6”,
-      “4”,
-      “8”,
-      “2”
-    ],
-    correctAns: “8”
-  },
-  {
-    questionNum: "2",
-    questionText: "How many knives does a professional chef use?", 
-    choices: [
-      “2”,
-      “8”,
-      “3”,
-      “Just the one”
-    ],
-    correctAns: “8”
-  },
+const quizQuestions = [
+    {
+        questionNum: "1",
+        questionText: "How many different ways can you ingredients?",
+        choices: ["6", "4", "8", "2"],
+        correctAns: "8"
+    },
+    {
+        questionNum: "2",
+        questionText: "How many knives does a professional chef use?",
+        choices: ["2", "8", "3", "Just the one"],
+        correctAns: "8"
+    },
+    {
+        questionNum: "3",
+        questionText: "Why is it called a Pain au Chocolat?",
+        choices: ["Because of the Pain in my life", "Bread + Chocolate from french", 
+        "Chocolat Croissant", "because a french person decided to add chocolate in a croissant"],
+        correctAns: "Bread + Chocolate from french"
+    },
+    {
+        questionNum: "4",
+        questionText: "How long should you fry a steak for to get it medium rare?",
+        choices: ["2 minutes each side", "3-4 minutes each side", "Til you can hear the meat start Mooing", "5-6 minutes each side"],
+        correctAns: "3-4 minutes each side"
+    },
+    {
+        questionNum: "5",
+        questionText: "What do you need to make a roux?",
+        choices: ["Flour/Butter/Milk", "Some sort of stock/flour/Milk", "Red Wine?? It sounds french?", "Maybe buy it from the store?"],
+        correctAns: "Flour/Butter/Milk"
+    }
+];
