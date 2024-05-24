@@ -205,8 +205,7 @@ This project was a nice refresher for my self to be able to gauge at how much i 
 * Scroll animation [CodePen](https://codepen.io/donovanh/pen/rmzNZJ)  
 * Alternative image converter to covertio. [FreeConvert](https://www.freeconvert.com/).
 * Image compress/converter [Convertio](https://convertio.co/). 
-*  Armored core 6 logo [Armored Core Fandom](https://armoredcore.fandom.com/wiki/ARMORED_CORE_VI_FIRES_OF_RUBICON/Emblems).
-* Px to rem/em converter [NekoCalc](https://nekocalc.com/px-to-rem-converter).
+* Google fonts for restaurants [Medium](https://medium.com/bentobox-design/font-pairings-our-favorite-google-fonts-for-restaurants-d157e4c5e5fd).
 * For styling color identifier [Color Hex](https://www.color-hex.com/) 
 * Background 
 Image [Unsplash](https://unsplash.com/photos/stainless-steel-cooking-pots-on-stove-0EkWTSFXwCc)
