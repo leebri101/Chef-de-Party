@@ -1,3 +1,4 @@
+/* jshint esversion: 8 */
 
 /**
  * Question and Answer structure:
@@ -10,3 +11,26 @@
  * (This is a requirement as the indexes start from 0).
  * Unintuitive for casual users or with little to no knowledge.
  */
+
+const quizQuestions = [{
+    questionNum: "1",
+    questionText: “How many different ways can you ingredients ?”,
+    choices: [
+      “6”,
+      “4”,
+      “8”,
+      “2”
+    ],
+    correctAns: “8”
+  },
+  {
+    questionNum: "2",
+    questionText: "How many knives does a professional chef use?", 
+    choices: [
+      “2”,
+      “8”,
+      “3”,
+      “Just the one”
+    ],
+    correctAns: “8”
+  },
