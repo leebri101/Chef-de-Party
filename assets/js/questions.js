@@ -29,7 +29,7 @@ const quizQuestions = [
         questionNum: "3",
         questionText: "Why is it called a Pain au Chocolat?",
         choices: ["Because of the Pain in my life", "Bread + Chocolate from french", 
-        "Chocolat Croissant", "because a french person decided to add chocolate in a croissant"],
+        "Chocolat Croissant", "Because a french person decided to add chocolate in a croissant for a joke."],
         correctAns: "Bread + Chocolate from french"
     },
     {
