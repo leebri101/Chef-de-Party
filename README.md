@@ -33,30 +33,30 @@
 
 ## **Project Planning**
 ### **Target Audiences:**
-* For potential clients and employers to present to about showcasing my personal portfolio.
-* For users who want inspiration for a personal portfolio design.
+* For users who want to be able to enjoy a short quiz.
+* For users who enjoy a short interactive game.
 
 ### **Site Objectives:**
-* Allowing users to able use and view projects and get in touch with the owner of the site. 
-* To create a simple, effective and user-friendly site which clients and employers can navigate with.
+* Allowing users to easily interact with the page without any technical or difficult complications. 
+* To create a simple, effective and user-friendly quiz page which any can use or take inspiration from.
 
 ### **User Stories:**
-* As a user I want to be able to navigate the website with ease.
-* As a user I want to be drawn in with the appearance of the website. 
-* As an employer I want to be able to gauge at how much the user has shown their creativity.
-* As a client I want to be able to see the work that the owner has done and be able to contact them for a future collaboration. 
+* As a user I want to be able to navigate the site with ease.
+* As a user I want to enjoy being able to do a short quiz that doesn't make it long or boring.
+* As the owner I want to be able to see a simple but smooth transition in animations used in the quiz. 
+* As the owner i want to be able to allow users to feel comfortable with interacting with the simple commands. 
 
 ### **Wire-Frames:**
-* To prevent any digressions towards the project aims & objectives I have made a basic wire-frame via [Figma](https://www.figma.com/file/uAbTphZwZsXFHnrtA8asCY/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=YDDw9WSsovAuHcRM-1) to refer back to in case of any major changes to the project. 
+* To prevent any digressions towards the project aims & objectives I have made a basic wire-frame via [Figma](https://www.figma.com/board/XEvFJX797o9pZ8cLhqcUOX/Chef-de-Partie?node-id=0-1&t=ahsLbSTdHofYGlSp-0) to refer back to in case of any major changes to the project. 
 
-[Wire-frame](doc/wireframe/) were all designed in Figma for a more simpler design.
+[Wire-frames](doc/wireframe/) were all designed in Figma for a more simple but effective design. 
 * [Home Page](doc/wireframe/home.png)
 * [About Me Page](doc/wireframe/about.png)
 * [Skills Page](doc/wireframe/skills.png)
 * [Projects Page](doc/wireframe/projects.png)
 * [Contact Page](doc/wireframe/contact.png)
 
-There have been some considerable cosmetic changes to the static site to improve the UX, however most of design was kept to original plan on the wireframes. Some of these changes may include:-
+There have been some considerable cosmetic changes to the static site to improve the UX, however most of design was kept to original plan on the wire-frames. Some of these changes may include:-
 * An interactive carousel at which the user can browse through manually.
 * A short automatic image gallery.
 * A blended in contact page (subject to change at a later date).
@@ -154,7 +154,7 @@ The footer page has a wave animation at which it is only used for display purpos
  Throughout the Project Portfolio only two fonts was used throughout for consistency:
   * Electrolize - for a more readable cybernetic look to the text.
 
-  * Orbitron - for a more retro cyberpunk look. 
+  * 
 
 * Please note that all fonts that have used in the project have been sourced from Google Fonts (quoted in the credits).
 
