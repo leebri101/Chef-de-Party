@@ -35,13 +35,15 @@ const quizQuestions = [
     {
         questionNum: "4",
         questionText: "How long should you fry a steak for to get it medium rare?",
-        choices: ["2 minutes each side", "3-4 minutes each side", "Til you can hear the meat start Mooing", "5-6 minutes each side"],
+        choices: ["2 minutes each side", "3-4 minutes each side", 
+        "Til you can hear the meat start Mooing", "5-6 minutes each side"],
         correctAns: "3-4 minutes each side"
     },
     {
         questionNum: "5",
         questionText: "What do you need to make a roux?",
-        choices: ["Flour/Butter/Milk", "Some sort of stock/flour/Milk", "Red Wine?? It sounds french?", "Maybe buy it from the store?"],
+        choices: ["Flour/Butter/Milk", "Some sort of stock/flour/Milk", 
+        "Red Wine?? It sounds french?", "Maybe buy it from the store?"],
         correctAns: "Flour/Butter/Milk"
     },
     {
