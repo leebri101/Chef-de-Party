@@ -60,7 +60,7 @@ There have been some considerable cosmetic changes to the static site to improve
 * An interactive carousel at which the user can browse through manually.
 * A short automatic image gallery.
 * A blended in contact page (subject to change at a later date).
-* Some animations on some of teh typography on the pages. 
+* Some animations on some of the typography on the pages. 
 * An animated background on all pages. 
 
 
