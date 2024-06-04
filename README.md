@@ -193,19 +193,14 @@ This project was a nice refresher for my self to be able to gauge at how much i 
 * All fonts used have been imported from - [Google-Fonts](https://fonts.google.com/)
 
 ### **Media:**
-* Contact page inspiration [Asana](https://asana.com/sales)
-* Favicon generator for index.html: [Favicon-Pro](https://www.favicon.pro/)
-* General RGB color Table used in style.css: [RGB-Table](https://www.rapidtables.com/web/color/RGB_Color.html)
+* Color picker site [Image Color Picker](https://imagecolorpicker.com/)
 * Image compressions: [TinyPNG](https://tinypng.com/) 
-* HubSpot for different styling of animations on CSS: [HubSpot](https://blog.hubspot.com/website/css-hover-animation)
-* RapidTables for general encyclopedia for searching for color themes: [RapidTables](https://www.rapidtables.com/web/color/RGB_Color.html)
 * For the basic and simple wire-frame design as a professional and practical project planning platform [Figma](https://www.figma.com/?fuid=).
 * CSS linear gradient animator via CodePen [CodePen](https://codepen.io/baarbaracrr/pen/KKovmGb) 
-* Animated slideshow [CodePen](https://codepen.io/mattfried/pen/LJNXVz) 
-* Scroll animation [CodePen](https://codepen.io/donovanh/pen/rmzNZJ)  
 * Alternative image converter to covertio. [FreeConvert](https://www.freeconvert.com/).
 * Image compress/converter [Convertio](https://convertio.co/). 
 * Google fonts for restaurants [Medium](https://medium.com/bentobox-design/font-pairings-our-favorite-google-fonts-for-restaurants-d157e4c5e5fd).
-* For styling color identifier [Color Hex](https://www.color-hex.com/) 
+* First color palette [Color Hex](https://www.color-hex.com/color-palette/10105)
+* Second color palette [Color Hex](https://www.color-hex.com/color-palette/67983)
 * Background 
 Image [Unsplash](https://unsplash.com/photos/stainless-steel-cooking-pots-on-stove-0EkWTSFXwCc)
