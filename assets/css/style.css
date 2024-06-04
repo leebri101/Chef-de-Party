@@ -49,6 +49,30 @@
 
 
  body{
-    font-family: Quattrocento, sans-serif;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    font-family: Quattrocento, serif;
     background: url(../images/professional-kitchen.webp) no-repeat center center/cover;
+    min-height: 100vh;
+ }
+
+ header{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    font-family: Cormorant garamond, serif, italic;
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(var(--color-one));
+ }
+
+ header h1{
+    margin-bottom: 0;
+ }
+
+ header span{
+    color: rgb(var(--color-four));
  }
