@@ -23,29 +23,29 @@
 }
 
 /* Color classes */
- {
+.gallery{
     color: var(--color-one);
- }
+}
 
- { 
+.silver{ 
     color: var(--color-two);
- }
+}
 
- {
+.hillary{
     color: var(--color-three);
- }
+}
 
- {
+.lobolly{
     color: var(--color-four);
- }
+}
 
- {
+.gulf-stream{
     color: var(--color-five);
- }
+}
     
- {
+.nile-blue{
     color: var(--color-six);
- }
+}
 
 
  body{
