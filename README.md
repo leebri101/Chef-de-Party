@@ -196,8 +196,7 @@ This project was a nice refresher for my self to be able to gauge at how much i 
 * Color picker site [Image Color Picker](https://imagecolorpicker.com/)
 * Image compressions: [TinyPNG](https://tinypng.com/) 
 * For the basic and simple wire-frame design as a professional and practical project planning platform [Figma](https://www.figma.com/?fuid=).
-* CSS linear gradient animator via CodePen [CodePen](https://codepen.io/baarbaracrr/pen/KKovmGb) 
-* Alternative image converter to covertio. [FreeConvert](https://www.freeconvert.com/).
+* Alternative image converter. [FreeConvert](https://www.freeconvert.com/).
 * Image compress/converter [Convertio](https://convertio.co/). 
 * Google fonts for restaurants [Medium](https://medium.com/bentobox-design/font-pairings-our-favorite-google-fonts-for-restaurants-d157e4c5e5fd).
 * First color palette [Color Hex](https://www.color-hex.com/color-palette/10105)
