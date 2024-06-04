@@ -41,6 +41,7 @@
     color: var(--color-six);
 }
 
+/* Body, Header, Footer styling */
 body {
     top: 0;
     bottom: 0;
@@ -53,7 +54,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: relative;
     text-align: center;
     top: 0;
     font-family: Cormorant Garamond, serif, italic;
@@ -85,3 +86,67 @@ header span {
     }
 }
 
+footer {
+    bottom: 0;
+    font-size: 2em;
+    text-align: center;
+}
+  
+footer p {
+    color: rgb(var(--color-four));
+    margin: 0.5em 0;
+}
+
+/* External link styling styling */
+.links {
+    text-align: center;
+    padding: 10px;
+}
+  
+.links > li {
+    display: inline-block;
+}
+
+.links > i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(var(--color-four));
+}
+
+a {
+text-align: center;
+margin-bottom: 2rem;
+color: #eee;
+}
+
+ul {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin: 1rem;
+list-style-type: none;
+font-size: 2rem;
+}
+
+ul li {
+padding: 1rem;
+}
+
+.fab {
+font-size: 3rem;
+}
+
+/* Transitions for Github hover animations */
+.fa-github{
+transition: 0.5s;
+cursor: pointer;
+}
+
+/* Github hover colors */
+.fa-github:hover,
+.fa-github:focus {
+color: rgb(var(--color-two));
+transform: scale(1.1);
+}
