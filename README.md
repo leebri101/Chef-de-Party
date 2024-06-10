@@ -44,7 +44,7 @@
 * As a user I want to be able to navigate the site with ease.
 * As a user I want to enjoy being able to do a short quiz that doesn't make it long or boring.
 * As the owner I want to be able to see a simple but smooth transition in animations used in the quiz. 
-* As the owner i want to be able to allow users to feel comfortable with interacting with the simple commands. 
+* As the owner I want to be able to allow users to feel comfortable with interacting with the simple commands. 
 
 ### **Wire-Frames:**
 * To prevent any digressions towards the project aims & objectives I have made a basic wire-frame via [Figma](https://www.figma.com/board/XEvFJX797o9pZ8cLhqcUOX/Chef-de-Partie?node-id=0-1&t=ahsLbSTdHofYGlSp-0) to refer back to in case of any major changes to the project. 
@@ -93,7 +93,7 @@ There have been some considerable cosmetic changes to the static site to improve
 ![Mobile-version](doc/screenshots/mobile-home.png)
 
 ### **About-Page:**
-* Within this part of the page showcases a brief summary of my life and why I went into coding, my educational background, and a personal message. But as a simple design(subject to change) i have included these subtle floating texts boxes that blend in well with the background page.
+* Within this part of the page showcases a brief summary of my life and why I went into coding, my educational background, and a personal message. But as a simple design(subject to change) I have included these subtle floating texts boxes that blend in well with the background page.
 
   ![About-Page](doc/screenshots/about-page.png)
 
@@ -159,13 +159,13 @@ The footer page has a wave animation at which it is only used for display purpos
 * Please note that all fonts that have used in the project have been sourced from Google Fonts (quoted in the credits).
 
 ## **Potential-Features**
-* This personal project portfolio page with be an ongoing improvement as i study more advanced coding to change and improve the appearance of the page and functionalities:
+* This personal project portfolio page with be an ongoing improvement as I study more advanced coding to change and improve the appearance of the page and functionalities:
     * A possible interactive start up function to allow users to interact with the page (with sound and an insignia). 
     * A fully functional contact form that can redirect users to enable them to contact me. 
     * A different more cleaner animated background with small but subtle features to it like glowing and floating dots.
     * A typewriter effect for the about page which manually shows a new text box for each new text box. 
     * a proper animated bar where it displays the skill level of my coding knowledge.
-    * These will be some of the possible changes that i would like to implement at a later date with more knowledge that has been gained over time.
+    * These will be some of the possible changes that I would like to implement at a later date with more knowledge that has been gained over time.
 
 ## **Deployment**
 The project has been deployed with the following steps: -
@@ -180,12 +180,14 @@ You can visit the live link via this URL or on the top the README file- [Tech-Sa
 
 ## **Credits**
 ### **Honorable mentions**
-This project was a nice refresher for my self to be able to gauge at how much i have improved from when I first started with little to no knowledge of coding to enjoying the challenges it brings me and for giving me the creative freedom to go beyond. However this will be (potentially be) an ongoing static site with a more improvements as i learn new coding languages, as with each coding language that is being covered it will may or may not be potentially be implemented into the project portfolio. But i must credit the following people:
- * John Lamontagne My Coding mentor who is incredible at giving me insight and suggestions on further improving my project and is a huge help to continuously support me for any sort of technical issues within the project.
+It was a nice refresher for me to comeback and re-learn JavaScript and to see how much I can make the quiz a lot better compared to the first one that I have created from the previous course that I attended, but however it was refreshing to see how much I can improve and learn, thinking beyond from last year from learning it from scratch to continuously think. "How can I make this better? What can I do to make it standout more? Or I think this would look better". From this I can see from myself that i have more qualities of being a good Web Developer, but i must credit the following people:
+ * John Lamontagne my coding mentor who is amazing at giving me advice, tips & tricks for always improving my projects, not only on a curricular base level, but in a real life perspective too, always giving a thorough analysis to ensure that I always achieve my highest potential as an upcoming developer.
+
 * My older brother for always being available for being a personal guinea pig for my projects (and as a non-coding person) and (with many more to come) and giving me constant constructive feedback all the time.
 
 ### **General reference:**
-* The project theme was based around a mixture of my past projects but to create a personal portfolio to showcase to clients and employers.
+* The project theme was based around a similar concept of the previous quiz, but of a different theme I made but with more changes to make it more effective and functional with little to no bugs as possible to ensure a higher accuracy of clean code as a practice for entering into the industry, but to also make a fun short quiz for users to play. 
+
 * I have used W3Schools for a basic understanding and learning process for knowing some basic functionality as a way of reminding some stuff, and for general basic coding references and as general encyclopedia for any code related issues or ideas, some of the designs for the main parts of the page are taken from inspiration from CodePen. 
 
 ### **Content:**
