@@ -75,6 +75,7 @@ Script JavaScript JSHINT:
 
 
 Quiz Questions JSHINT:
+![JSHINT QUESTIONS](doc/screenshots/quiz-questions-jshint.png)
 
 
 ### **Lighthouse Scoring**
