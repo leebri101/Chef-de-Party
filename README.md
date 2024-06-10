@@ -152,7 +152,7 @@ The footer page has a wave animation at which it is only used for display purpos
 
 ## **Typesetting**
  Throughout the Project Portfolio only two fonts was used throughout for consistency:
-  * Electrolize - for a more readable cybernetic look to the text.
+  * 
 
   * 
 
