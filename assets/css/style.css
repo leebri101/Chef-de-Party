@@ -51,12 +51,13 @@ body {
     font-family: Quattrocento, serif;
     background: url(../images/professional-kitchen.webp) no-repeat center center/cover;
     min-height: 100vh;
+    text-align: center;
 }
 
 header {
     position: relative;
-    text-align: center;
     top: 0;
+    text-align: center;
     font-family: Cormorant Garamond, serif, italic;
     font-size: 3em;
     font-weight: bolder;
@@ -97,6 +98,37 @@ footer p {
     margin: 0.5em 0;
 }
 
+/* displaying & hiding sections from script.js*/
+.show-block {
+    display: block;
+}
+
+.show-inline-flex {
+display: inline-flex;
+}
+
+.hidden {
+display: none;
+}
+
+
+#landing-page{
+    display: inline-flex;
+}
+
+#button{
+    font-size: 275px;
+    border-radius: 50%;
+    color: rgb(var(--color-five), 0.85);
+}
+
+#button:hover{
+    color: rgb(var(--color-four), 0.85);
+    font-size: 275px;
+    border-radius: 50%;
+    animation: pulse 0.5s;
+}
+
 /* External link styling styling */
 .links {
     text-align: center;
@@ -112,6 +144,17 @@ footer p {
     margin: 1%;
     padding: 5%;
     color: rgb(var(--color-four));
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -134,6 +177,7 @@ ul li {
 padding: 1rem;
 }
 
+/* Icon for title*/
 .fab {
 font-size: 4rem;
 }
