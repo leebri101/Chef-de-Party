@@ -14,8 +14,8 @@
     --color-five: 143,178,185;
     /* Nile Blue */
     --color-six: 23,54,84;
-    /*Corn*/
-    --color-seven: 227,181,5;
+    /*Carrot Orange */
+    --color-seven: 235, 137, 33;
 }
 
 /* Color classes */
@@ -43,7 +43,7 @@
     color: var(--color-six);
 }
 
-.corn {
+.carrot-orange {
     color: var(--color-seven);
 }
 
@@ -100,7 +100,8 @@ footer {
 }
   
 footer p {
-    color: rgb(var(--color-one));
+    font-weight: bolder;
+    color: rgb(var(--color-seven));
     margin: 0.5em 0;
 }
 
