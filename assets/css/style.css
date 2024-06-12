@@ -179,9 +179,12 @@ padding: 1rem;
 
 /* Icon for title*/
 .fab {
-font-size: 4rem;
+font-size: 3.5rem;
 }
-
+.fa-kitchen-set{
+    font-size: 125px;
+    color:rgb(var(--color-three));
+}
 /* Transitions for Github hover animations */
 .fa-github{
 transition: 0.5s;
