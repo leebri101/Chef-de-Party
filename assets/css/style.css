@@ -14,6 +14,8 @@
     --color-five: 143,178,185;
     /* Nile Blue */
     --color-six: 23,54,84;
+    /*Corn*/
+    --color-seven: 227,181,5;
 }
 
 /* Color classes */
@@ -39,6 +41,10 @@
         
 .nile-blue {
     color: var(--color-six);
+}
+
+.corn {
+    color: var(--color-seven);
 }
 
 /* Body, Header, Footer styling */
@@ -94,7 +100,7 @@ footer {
 }
   
 footer p {
-    color: rgb(var(--color-four));
+    color: rgb(var(--color-one));
     margin: 0.5em 0;
 }
 
@@ -126,7 +132,7 @@ display: none;
     color: rgb(var(--color-four), 0.85);
     font-size: 275px;
     border-radius: 50%;
-    animation: pulse 0.5s;
+    animation: pulse 5s;
 }
 
 /* External link styling styling */
@@ -146,6 +152,7 @@ display: none;
     color: rgb(var(--color-four));
 }
 
+/* Reused code for display */
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -155,6 +162,33 @@ display: none;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.text-center{
+    text-align: center;
+
+}
+
+.width{
+    width: 100vw;
+}
+.padding {
+padding: 0.5em;
+}
+
+.margin {
+    margin: 0.5em;
+}
+
+.margin-zero {
+    margin: 0;
+}
+
+.width {
+    width: 100vw;
+}
+
+.max-width {
+    max-width: 650px;
 }
 
 a {
