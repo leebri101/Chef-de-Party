@@ -117,6 +117,9 @@ display: inline-flex;
 .hidden {
 display: none;
 }
+.rounded-border{
+    border-radius: 10px;
+}
 
 /*Landing page section and CTA button*/
 #landing-page{
@@ -124,14 +127,14 @@ display: none;
 }
 
 #button{
-    font-size: 275px;
+    font-size: 250px;
     border-radius: 50%;
     color: rgb(var(--color-five), 0.85);
 }
 
 #button:hover{
     color: rgb(var(--color-four), 0.85);
-    font-size: 275px;
+    font-size: 250px;
     border-radius: 50%;
     animation: pulse 5s;
 }
