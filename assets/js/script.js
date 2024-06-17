@@ -1,3 +1,6 @@
+/* jshint esversion: 8 */
+
+
 // variables for the quiz
 let yaynay = "unanswered";
 const quizLength = 10;
