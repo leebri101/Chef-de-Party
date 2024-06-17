@@ -8,32 +8,28 @@
     <title>Chef de Party</title>
 </head>
 <body class="flex-column flex-center margin-zero width text-center">
-    <header>
+    <header class="width" id="header">
         <h1 class="animated"><i class="fa-solid fa-kitchen-set fa-bounce"></i>~Chef 
             <span>de Party~</span>
             <i class="fa-solid fa-kitchen-set fa-bounce"></i>
         </h1> 
     </header>
-    <main>
+    <main class="width">
         <section id="landing-page">
             <i class="fa-solid fa-play" id="button"></i>
         </section>
-        <section id="start-game" class="flex-column flex-center max-width">
-            <p class="margin-zero padding text-center" style="color:rgb(var(--color-six))"> 
-                Player Name:
-            </p>
-            <input type="text" id="player-name" class="input" placeholder="Please Enter your name..." required>
+        <section>
+            <section id="start-game" class="flex-column flex-center max-width">
+                <p class="margin-zero padding text-center" style="color:rgb(var(--color-six))"> 
+                    Player Name:
+                </p>
+                <input type="text" id="player-name" class="rounded-border text-center padding" placeholder="Please Enter your name..." required>
+                <section class="start-game-holder margin">
+                    <button type="button" id="start-btn" class="border" aria-label="Start the quiz">Start Game</button>
+                    <button type="button" id="quit-btn" class="border" aria-label="Leave the quiz">Quit Game</button>
+                </section>
+            </section>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
     </main>
     
     <!--Footer & Github link-->
