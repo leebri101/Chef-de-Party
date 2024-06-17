@@ -6,7 +6,7 @@ let questionCount = 0;
 const headerSection = document.getElementById("header");
 const footerSection = document.getElementById("footer");
 const landingSection = document.getElementById("landing-page");
-const playButton = document.getElementById("button");
+const playButton = document.getElementById("play-button");
 const newGameSection = document.getElementById("start-game");
 const playerName = document.getElementById("player-name");
 
@@ -17,3 +17,10 @@ function startNewGame() {
   }
       
 playButton.addEventListener("click", startNewGame);
+
+function quitGame() {
+    playerName.value = "";
+    newGameSection.style.display = "none";
+    landingSection.style.display = "inline-flex";
+  }
+

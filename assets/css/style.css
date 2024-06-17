@@ -126,13 +126,13 @@ display: none;
     display: inline-flex;
 }
 
-#button{
+#play-button{
     font-size: 250px;
     border-radius: 50%;
     color: rgb(var(--color-five), 0.85);
 }
 
-#button:hover{
+#play-button:hover{
     color: rgb(var(--color-four), 0.85);
     font-size: 250px;
     border-radius: 50%;
