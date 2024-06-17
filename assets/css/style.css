@@ -67,9 +67,10 @@ header {
     font-family: Cormorant Garamond, serif, italic;
     font-size: 3em;
     font-weight: bolder;
-    color: rgb(var(--color-one));
+    color: rgb(var(--color-five));
     text-shadow: 1.5px 1.5px 1.5px rgb(var(--color-six));
 }
+
 
 header h1 {
     margin-bottom: 0;
@@ -141,13 +142,13 @@ display: none;
 
 /* Start Game section*/
 #start-game {
-    background-color: rgba(var(--color-three),0.85);
+    background-color: rgba(var(--color-five),0.85);
     width: calc(90% - 1em);
     display: none;
 }
 
 ::placeholder {
-color: rgb(var(--color-three));
+color: rgb(var(--color-five));
 }
   
 #player-name {
@@ -163,8 +164,8 @@ color: rgb(var(--color-three));
 
 #start-btn,
 #quit-btn {
-    background-color: rgba(var(--color-five), 0.85);
-    color: #fff;
+    background-color: rgba(var(--color-six), 0.85);
+    color: rgba(var(--color-seven));
     font-size: 1.2em;
     text-align: center;
     padding: 0.25em 0.5em;
