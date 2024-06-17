@@ -9,6 +9,8 @@ const landingSection = document.getElementById("landing-page");
 const playButton = document.getElementById("play-button");
 const newGameSection = document.getElementById("start-game");
 const playerName = document.getElementById("player-name");
+const startBtn = document.getElementById("start-btn");
+const quitBtn = document.getElementById("quit-btn");
 
 function startNewGame() {
     landingSection.style.display = "none";
@@ -18,9 +20,10 @@ function startNewGame() {
       
 playButton.addEventListener("click", startNewGame);
 
-function quitGame() {
+function leaveQuiz() {
     playerName.value = "";
     newGameSection.style.display = "none";
     landingSection.style.display = "inline-flex";
   }
 
+quitBtn.addEventListener("click", leaveQuiz);
