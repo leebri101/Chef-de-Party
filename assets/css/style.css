@@ -195,7 +195,7 @@ color: rgb(var(--color-six));
 input {
     background-color: rgba(var(--color-one), 0.5);
 }
-
+/* Start and Quit buttons */
 #start-btn,
 #quit-btn {
     background-color: rgba(var(--color-six), 0.85);
@@ -206,6 +206,74 @@ input {
     padding: 0.25em 0.5em;
 }
 
+/*Quiz section*/ 
+#quiz{
+    display: none;
+    background-size: cover;
+}
+
+#question-box {
+    background-color: rgba(var(--color-five), 0.85);
+    border: 3px solid rgb(var(--color-three));
+    color: #fff;
+    display: inline-flex;
+    width: 80vw;
+    font-weight: bold;
+}
+  
+#answer-box {
+    display: inline-flex;
+    width: 80vw;
+    margin: 1em 0;
+  }
+  
+.answer {
+    background-color: rgb(var(--color-two));
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    border: 3px solid white;
+    margin: 0.5em 0;
+    width: 100%;
+    padding: 0.5em;
+    font-weight: bold;
+}
+  
+.answer:hover {
+    background-color: rgba(var(--color-seven), 0.85);
+    color: white;
+    transition: background-color 0.5s ease-out 100ms;
+}
+  
+.answer-selected {
+    background-color: rgba(var(--color-four), 0.85);
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 0.5em 0;
+    width: 100%;
+    padding: 0.5em;
+    font-weight: bold;
+}
+  
+#quiz-nav {
+    display: inline-flex;
+}
+  
+.next-btn-holder {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+#next-btn {
+    background-color: rgba(var(--color-six), 0.85);
+    color: rgba(var(--color-seven));
+    font-size: 1.25em;
+    padding: 0.25em 0.5em;
+    text-align: center;
+    border: 3px solid rgba(var(--color-six), 0.75);
+}
+  
 /* External link styling styling */
 .links {
     text-align: center;

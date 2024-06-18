@@ -24,7 +24,7 @@
                 <p class="margin-zero padding text-center">
                     Lets see how well your taste is..
                 </p>
-                <h5>(Enter your name and click start to begin the quiz.)</h5>
+                <h5>(Enter your name and click start to begin the quiz)</h5>
                 <br>
                 <input type="text" id="player-name" class="rounded-border text-center padding" placeholder="Please Enter your name..." required>
                 <br>
@@ -33,8 +33,27 @@
                     <button type="button" id="quit-btn" class="rounded-border" aria-label="Go back to home page">Quit Game</button>
                 </section>
             </section>
-            <section>
-                
+            <section id="quiz" class="flex-center flex-column rounded-border max-width">
+                <section class="quiz-tracker margin rounded-border max-width">
+                    <div id="question-number">
+                        <p>Question: <span id="current-question">-</span>of
+                            <span id="total-questions">-</span>
+                        </p>
+                    </div>
+                    <div id="timer" class="flex-column">
+                        <p><i class="fa-solid fa-hourglass-start"></i>
+                            <span id="counter">30</span>
+                            <i class="fa-solid fa-hourglass-half"></i>
+                            <span id="counter">20</span>
+                            <i class="fa-solid fa-hourglass-end"></i>
+                            <span id="counter">10</span>
+                        </p>
+                    </div>
+                    <div id="total-time" class="rounded-border">
+
+                    </div>
+                </section>
+
             </section>
         </section>
     </main>
