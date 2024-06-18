@@ -14,7 +14,17 @@ const newGameSection = document.getElementById("start-game");
 const playerName = document.getElementById("player-name");
 const startBtn = document.getElementById("start-btn");
 const quitBtn = document.getElementById("quit-btn");
-
+const nextBtn = document.getElementById("next-btn");
+const quizSection = document.getElementById("quiz-section");
+const question = document.getElementById("question-box");
+const answer1 = document.getElementById("answer1");
+const answer2 = document.getElementById("answer2");
+const answer3 = document.getElementById("answer3");
+const answer4 = document.getElementById("answer4");
+const answerBox = document.getElementById("answer-box");
+const answerOptions = document.getElementsByClassName(".answer");
+const resultSection = document.getElementById("result");
+const timeBar = document.getElementById("time-left");
 
 
 /**
@@ -39,3 +49,35 @@ function leaveQuiz() {
   }
 
 quitBtn.addEventListener("click", leaveQuiz);
+
+/**
+ * Once the user has clicked on teh CTA button, the user is prompted to enter their name and click start to begin the quiz.
+ * If there is no input from the player an errorhandler is in place to prompt the player to input their name in the placeholder. 
+ * Once the player inputs their name, the questions will be randomized, built and will display the first question at random, 
+ * (which will be taken from the questions.js file).
+ * The timer will start and the player will be given  set amount fo time to answer the question.
+ */
+function startGame() {
+  if (playerName.value == "" || playerName == null || playerName == undefined){
+    playerName.style.borderBlockColor = "red";
+  } else{
+    quizSection.style.display = "inline-flex";
+    newGameSection.style.display = "none";
+    headerSection.style.display = "none";
+    footerSection.style.display = "none";
+    shuffle(quizQuestions);
+    buildQuizQuestion(questionCount);
+    progressBar(questionCount);
+    startTimer();
+  }
+}
+
+// Left click and enter event listener for player to interact to start quiz
+startBtn.addEventListener("click", startGame);
+playerName.addEventListener("keypress", function(e) {
+  if (e.key === "Enter") {
+    startGame();
+  }
+});
+
+
