@@ -92,6 +92,40 @@ function formQuizQuestion(questionID){
   answer4.innerHTML = quizQuestions[questionID].choices[3];
 }
 
+let timeLeft;
+const counter = document.getElementById("counter");
+let timer;
+
+
+function startTimer() {
+  timeLeft = 100;
+  timer = setInterval(function () {
+    countdown(timeLeft);
+  }, 10000);
+}
+
+function countdown(timeLeft) {
+  if (timeLeft === 0) {
+    counter.innerHTML = `0`;
+    nextQuestion();
+  } else {
+    timeLeftWidth = timeLeftWidth - (100 / 30);
+    timeLeft -= 1;
+    counter.innerHTML = timeLeft;
+    timeBar.style.width = timeLeftWidth + "%";
+    if (timeLeft >= 20) {
+      timeBar.style.backgroundColor = "green";
+    } else if (timeLeft <= 10) {
+      timeBar.style.backgroundColor = "red";
+    } else {
+      timeBar.style.backgroundColor = "yellow";
+    }
+  }
+}
+let timeLeftWidth = 100;
+
+
+
 
 
 /**
