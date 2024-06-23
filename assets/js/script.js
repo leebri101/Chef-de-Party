@@ -17,10 +17,10 @@ const quitBtn = document.getElementById("quit-btn");
 const nextBtn = document.getElementById("next-btn");
 const quizSection = document.getElementById("quiz-section");
 const question = document.getElementById("question-box");
-const answer1 = document.getElementById("answer1");
-const answer2 = document.getElementById("answer2");
-const answer3 = document.getElementById("answer3");
-const answer4 = document.getElementById("answer4");
+const choice1 = document.getElementById("answer1");
+const choice2 = document.getElementById("answer2");
+const choice3 = document.getElementById("answer3");
+const choice4 = document.getElementById("answer4");
 const answerBox = document.getElementById("answer-box");
 const answerOptions = document.getElementsByClassName(".answer");
 const resultSection = document.getElementById("result");
@@ -66,7 +66,7 @@ function startGame() {
     headerSection.style.display = "none";
     footerSection.style.display = "none";
     shuffle(quizQuestions);
-    buildQuizQuestion(questionCount);
+    formQuizQuestion(questionCount);
     progressBar(questionCount);
     startTimer();
   }
@@ -80,4 +80,39 @@ playerName.addEventListener("keypress", function(e) {
   }
 });
 
+function formQuizQuestion(questionID){
+  let currentQuestionNum = document.getElementById("current-question");
+  let totalQuestions = document.getElementById("total-questions");
+  currentQuestionNum.innerHTML = questionCount + 1;
+  totalQuestions.innerHTML = quizLength;
+  question.innerHTML = quizQuestions[questionID].questionText;
+  answer1.innerHTML = quizQuestions[questionID].choices[0];
+  answer2.innerHTML = quizQuestions[questionID].choices[1];
+  answer3.innerHTML = quizQuestions[questionID].choices[2];
+  answer4.innerHTML = quizQuestions[questionID].choices[3];
+}
 
+
+
+/**
+ * "Fisher Yates" method to shuffle questions in any random order for fairness.
+ *  Credits go to Mike Bostock. https://bost.ocks.org/mike/shuffle/
+*/
+function shuffle(array) {
+  let m = array.length, 
+  t, i;
+
+  // While there remain elements to shuffle…
+  while (m) {
+
+    // Pick a remaining element…
+    i = Math.floor(Math.random() * m--);
+
+    // And swap it with the current element.
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+  }
+
+return array;
+}
