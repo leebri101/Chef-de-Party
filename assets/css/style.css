@@ -179,8 +179,8 @@ display: none;
 
 /* Start Game section*/
 #start-game {
-    background-color: rgba(var(--color-four),0.50);
-    width: calc(50% - 1em);
+    background-color: rgba(var(--color-four),0.65);
+    width: calc(37% - 1em);
     display: none;
     border-radius: 10px;
 }
