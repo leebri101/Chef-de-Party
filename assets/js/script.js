@@ -114,6 +114,7 @@ function countdown(seconds) {
 
 let timeLeftWidth = 100;
 
+//
 function resetTimer () {
   counter.innerHTML = `100`;
   timeLeftWidth = 100;
@@ -145,7 +146,7 @@ function shuffle(array) {
   return array;
 }
 
-
+//
 function formQuizQuestion(questionID){
   let currentQuestionNum = document.getElementById("current-question");
   let totalQuestions = document.getElementById("total-questions");
@@ -158,13 +159,14 @@ function formQuizQuestion(questionID){
   choiceFour.innerHTML = quizQuestions[questionID].choices[3];
 }
 
-
+//
 function resetAnswer() {
   for(let answer of answerOptions){
     answer.setAttributes("class", "answer");
   }
 }
 
+//
 function progressBar(){
   document.getElementsByClassName("dot")[questionCount]
   .style.backgroundColor = "yellow";
