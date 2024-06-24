@@ -164,3 +164,8 @@ function resetAnswer() {
     answer.setAttributes("class", "answer");
   }
 }
+
+function progressBar(){
+  document.getElementsByClassName("dot")[questionCount]
+  .style.backgroundColor = "yellow";
+}
