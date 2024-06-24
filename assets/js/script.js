@@ -73,25 +73,14 @@ function startGame() {
 }
 
 // Left click and enter event listener for player to interact to start quiz
-startBtn.addEventListener("click", startGame);
+startButton.addEventListener("click", startGame);
 playerName.addEventListener("keypress", function(e) {
   if (e.key === "Enter") {
     startGame();
   }
 });
 
-function formQuizQuestion(questionID){
-  let currentQuestionNum = document.getElementById("current-question");
-  let totalQuestions = document.getElementById("total-questions");
-  currentQuestionNum.innerHTML = questionCount + 1;
-  totalQuestions.innerHTML = quizLength;
-  question.innerHTML = quizQuestions[questionID].questionText;
-  answer1.innerHTML = quizQuestions[questionID].choices[0];
-  answer2.innerHTML = quizQuestions[questionID].choices[1];
-  answer3.innerHTML = quizQuestions[questionID].choices[2];
-  answer4.innerHTML = quizQuestions[questionID].choices[3];
-}
-
+// Time variables 
 let timeLeft;
 const counter = document.getElementById("counter");
 let timer;
@@ -104,8 +93,8 @@ function startTimer() {
   }, 10000);
 }
 
-function countdown(timeLeft) {
-  if (timeLeft === 0) {
+function countdown(seconds) {
+  if (seconds === 0) {
     counter.innerHTML = `0`;
     nextQuestion();
   } else {
@@ -122,11 +111,16 @@ function countdown(timeLeft) {
     }
   }
 }
+
 let timeLeftWidth = 100;
 
-
-
-
+function resetTimer () {
+  counter.innerHTML = `100`;
+  timeLeftWidth = 100;
+  timeBar.style.width  = "100%";
+  timeBar.style.backgroundColor = "green";
+  clearInterval(timer);
+}
 
 /**
  * "Fisher Yates" method to shuffle questions in any random order for fairness.
@@ -135,18 +129,31 @@ let timeLeftWidth = 100;
 function shuffle(array) {
   let m = array.length, 
   t, i;
-
+  
   // While there remain elements to shuffle…
   while (m) {
-
+    
     // Pick a remaining element…
     i = Math.floor(Math.random() * m--);
-
+    
     // And swap it with the current element.
     t = array[m];
     array[m] = array[i];
     array[i] = t;
   }
+  
+  return array;
+}
 
-return array;
+
+function formQuizQuestion(questionID){
+  let currentQuestionNum = document.getElementById("current-question");
+  let totalQuestions = document.getElementById("total-questions");
+  currentQuestionNum.innerHTML = questionCount + 1;
+  totalQuestions.innerHTML = quizLength;
+  question.innerHTML = quizQuestions[questionID].questionText;
+  answer1.innerHTML = quizQuestions[questionID].choices[0];
+  answer2.innerHTML = quizQuestions[questionID].choices[1];
+  answer3.innerHTML = quizQuestions[questionID].choices[2];
+  answer4.innerHTML = quizQuestions[questionID].choices[3];
 }
