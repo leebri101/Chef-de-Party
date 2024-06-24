@@ -152,8 +152,15 @@ function formQuizQuestion(questionID){
   currentQuestionNum.innerHTML = questionCount + 1;
   totalQuestions.innerHTML = quizLength;
   question.innerHTML = quizQuestions[questionID].questionText;
-  answer1.innerHTML = quizQuestions[questionID].choices[0];
-  answer2.innerHTML = quizQuestions[questionID].choices[1];
-  answer3.innerHTML = quizQuestions[questionID].choices[2];
-  answer4.innerHTML = quizQuestions[questionID].choices[3];
+  choiceOne.innerHTML = quizQuestions[questionID].choices[0];
+  choiceTwo.innerHTML = quizQuestions[questionID].choices[1];
+  choiceThree.innerHTML = quizQuestions[questionID].choices[2];
+  choiceFour.innerHTML = quizQuestions[questionID].choices[3];
+}
+
+
+function resetAnswer() {
+  for(let answer of answerOptions){
+    answer.setAttributes("class", "answer");
+  }
 }
