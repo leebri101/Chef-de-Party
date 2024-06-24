@@ -269,12 +269,12 @@ input {
     display: inline-flex;
 }
   
-.next-btn-holder {
+.next-button-holder {
     display: flex;
     justify-content: space-evenly;
 }
   
-#next-btn {
+#next-button {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
     font-size: 1.25em;
