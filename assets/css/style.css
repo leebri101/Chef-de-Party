@@ -205,8 +205,8 @@ input {
 }
 
 /* Start and Quit buttons */
-#start-btn,
-#quit-btn {
+#start-button,
+#quit-button {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
     border-color: rgba(var(--color-six), 0.75);

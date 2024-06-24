@@ -12,9 +12,9 @@ const landingSection = document.getElementById("landing-page");
 const playButton = document.getElementById("play-button");
 const newGameSection = document.getElementById("start-game");
 const playerName = document.getElementById("player-name");
-const startBtn = document.getElementById("start-btn");
-const quitBtn = document.getElementById("quit-btn");
-const nextBtn = document.getElementById("next-btn");
+const startButton = document.getElementById("start-button");
+const quitButton = document.getElementById("quit-button");
+const nextButton = document.getElementById("next-button");
 const quizSection = document.getElementById("quiz-section");
 const question = document.getElementById("question-box");
 const choiceOne = document.getElementById("answer1");
@@ -48,7 +48,7 @@ function leaveQuiz() {
     landingSection.style.display = "inline-flex";
   }
 
-quitBtn.addEventListener("click", leaveQuiz);
+quitButton.addEventListener("click", leaveQuiz);
 
 /**
  * Once the user has clicked on teh CTA button, the user is prompted to enter their name and click start to begin the quiz.
