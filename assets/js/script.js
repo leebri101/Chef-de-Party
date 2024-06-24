@@ -1,6 +1,5 @@
 /* jshint esversion: 8 */
 
-
 // variables for the quiz
 let yaynay = "unanswered";
 const quizLength = 10;
@@ -22,7 +21,7 @@ const choiceTwo = document.getElementById("answer2");
 const choiceThree = document.getElementById("answer3");
 const choiceFour = document.getElementById("answer4");
 const answerBox = document.getElementById("answer-box");
-const answerOptions = document.getElementsByClassName(".answer");
+const answerOptions = document.getElementsByClassName("answer");
 const resultSection = document.getElementById("result");
 const timeBar = document.getElementById("time-left");
 
@@ -162,12 +161,13 @@ function formQuizQuestion(questionID){
 //
 function resetAnswer() {
   for(let answer of answerOptions){
-    answer.setAttributes("class", "answer");
+    answer.setAttribute("class", "answer");
   }
 }
 
 //
-function progressBar(){
+function progressBar(questionCount){
   document.getElementsByClassName("dot")[questionCount]
-  .style.backgroundColor = "yellow";
+.style.backgroundColor = "yellow";
 }
+
