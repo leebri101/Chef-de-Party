@@ -21,7 +21,7 @@ const choiceTwo = document.getElementById("answer2");
 const choiceThree = document.getElementById("answer3");
 const choiceFour = document.getElementById("answer4");
 const answerBox = document.getElementById("answer-box");
-const answerOptions = document.getElementsByClassName("answer");
+const answerOptions = answerBox.querySelectorAll(".answer");
 const resultSection = document.getElementById("result");
 const timeBar = document.getElementById("time-left");
 
@@ -151,11 +151,11 @@ function formQuizQuestion(questionID){
   let totalQuestions = document.getElementById("total-questions");
   currentQuestionNum.innerHTML = questionCount + 1;
   totalQuestions.innerHTML = quizLength;
-  question.innerHTML = quizQuestions[questionID].questionText;
-  choiceOne.innerHTML = quizQuestions[questionID].choices[0];
-  choiceTwo.innerHTML = quizQuestions[questionID].choices[1];
-  choiceThree.innerHTML = quizQuestions[questionID].choices[2];
-  choiceFour.innerHTML = quizQuestions[questionID].choices[3];
+  question.innerHTML = quizQuestion[questionID].questionText;
+  choiceOne.innerHTML = quizQuestion[questionID].choices[0];
+  choiceTwo.innerHTML = quizQuestion[questionID].choices[1];
+  choiceThree.innerHTML = uizQuestion[questionID].choices[2];
+  choiceFour.innerHTML = quizQuestion[questionID].choices[3];
 }
 
 //
@@ -171,3 +171,24 @@ function progressBar(questionCount){
 .style.backgroundColor = "yellow";
 }
 
+for (let answer of answerOptions){
+  answer.addEventListener("click", choiceAnswer());
+}
+
+function choiceAnswer(event){
+  resetAnswer();
+  this.setAttribute("class", "answer-selected");
+  let targetID = event.target.id;
+  evaluateAnswer(targetID);
+}
+
+function evaluateAnswer(targetID){
+  let playerAnswer = document.getElementById(targetID).innerText;
+  let correctAnswer = quizQuestions[questionCount].correctAns;
+  if (playerAnswer == correctAnswer){
+    correctNum++;
+    yaynay = "correct";
+  } else {
+    yaynay = "incorrect";
+  }
+}
