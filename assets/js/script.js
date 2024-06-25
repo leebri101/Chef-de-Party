@@ -102,11 +102,11 @@ function countdown(seconds) {
     counter.innerHTML = timeLeft;
     timeBar.style.width = timeLeftWidth + "%";
     if (timeLeft >= 20) {
-      timeBar.style.backgroundColor = "green";
+      timeBar.style.backgroundColor = "rgb(85, 107, 47)";
     } else if (timeLeft <= 10) {
-      timeBar.style.backgroundColor = "red";
+      timeBar.style.backgroundColor = "rgb(217, 53, 6)";
     } else {
-      timeBar.style.backgroundColor = "yellow";
+      timeBar.style.backgroundColor = "rgb(248, 183, 0)";
     }
   }
 }
@@ -118,7 +118,7 @@ function resetTimer () {
   counter.innerHTML = `100`;
   timeLeftWidth = 100;
   timeBar.style.width  = "100%";
-  timeBar.style.backgroundColor = "green";
+  timeBar.style.backgroundColor = "rgb(85, 107, 47)";
   clearInterval(timer);
 }
 
@@ -168,7 +168,7 @@ function resetAnswer() {
 //
 function progressBar(questionCount){
   document.getElementsByClassName("dot")[questionCount]
-.style.backgroundColor = "yellow";
+.style.backgroundColor = "rgb(235, 137, 33)";
 }
 
 for (let answer of answerOptions){
@@ -192,3 +192,26 @@ function evaluateAnswer(targetID){
     yaynay = "incorrect";
   }
 }
+
+
+function scoreTracker(){
+  let trackerColor;
+  switch(yaynay){
+    case "correct":
+      trackerColor = "rgb(85,107,47)";
+      break;
+    case "incorrect":
+      trackerColor = "rgb(217, 53, 6)";
+      break;
+    case undefined:
+    case null:
+    case "unanswered":
+      trackerColor = "rgb(194, 194, 194)";
+      break;
+  }
+  document.getElementsByClassName("dot")[questionCount - 1].style.backgroundColor = trackerColor;
+
+  yaynay = "unanswered";
+}
+
+
