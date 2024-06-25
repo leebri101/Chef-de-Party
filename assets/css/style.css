@@ -210,7 +210,7 @@ input {
 #quit-button {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
-    font-weight: bold;
+    font-weight: 20px;
     border-color: rgba(var(--color-six), 0.75);
     font-size: 1.2em;
     text-align: center;
@@ -444,4 +444,78 @@ cursor: pointer;
 .fa-github:focus {
 color: rgb(var(--color-two));
 transform: scale(1.1);
+}
+
+/* Media screen for smaller sizes */
+@media screen and (max-width: 768px) {
+    /* Update header styling for smaller sizes */
+    header {
+        font-size: 2.5em;
+    }
+
+    /* Update start game section styling for smaller sizes */
+    #start-game {
+        width: 100%;
+    }
+
+    /* Update start and quit buttons styling for smaller sizes */
+    #start-button,
+    #quit-button {
+        font-size: 1em;
+    }
+
+    /* Update quiz section styling for smaller sizes */
+    #quiz {
+        background-size: cover;
+    }
+
+    /* Update question box styling for smaller sizes */
+    #question-box {
+        width: 90vw;
+    }
+
+    /* Update answer box styling for smaller sizes */
+    #answer-box {
+        width: 90vw;
+    }
+
+    /* Update answer styling for smaller sizes */
+    .answer {
+        margin: 0.25em 0;
+    }
+
+    /* Update next button styling for smaller sizes */
+    #next-button {
+        font-size: 1em;
+    }
+
+    /* Update quiz tracker styling for smaller sizes */
+    .quiz-tracker {
+        width: 90vw;
+    }
+
+    /* Update point tracker styling for smaller sizes */
+    #point-tracker {
+        width: 90vw;
+    }
+
+    /* Update results page styling for smaller sizes */
+    #results-page {
+        width: 90vw;
+    }
+
+    /* Update external link styling for smaller sizes */
+    .links {
+        padding: 5px;
+    }
+
+    /* Update icon for title styling for smaller sizes */
+    .fab {
+        font-size: 2.5rem;
+    }
+
+    /* Update kitchen set icon styling for smaller sizes */
+    .fa-kitchen-set {
+        font-size: 75px;
+    }
 }
