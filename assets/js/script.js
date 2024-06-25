@@ -214,4 +214,29 @@ function scoreTracker(){
   yaynay = "unanswered";
 }
 
+function endOfQuiz(){
+  quizSection.style.display = "none";
+  resultSection.style.display = "inline-flex";
+  headerSection.style.display = "block";
+  footerSection.style.display = "block";
+  userResult();
+}
 
+function userResult(){
+  const scoreResult = document.querySelector("#score");
+  let resultOutput = `${correctNum} / ${questionCount}`;
+  scoreResult.innerHTML = resultOutput; 
+
+
+  const playerFeedback = document.querySelector("#player-feedback");
+  let player = playerName.value;
+  if (correctNum <= 2){
+    playerFeedback.innerHTML = `WHAT ARE YOU AN IDIOT SANDWICH, YOU DONKEY!!!!!! ${player}!`;
+  } else if (correctNum <= 5){
+    playerFeedback.innerHTML = `Well that was nuts ${player}!`;
+  } else if (correctNum <= 8){
+    playerFeedback.innerHTML = `You're a decent cook, but you're not a chef ${player}!`;
+  } else if (correctNum >= 10){
+    playerFeedback.innerHTML = `Très bon vraiment un chef étoilé Michelin, bravo ${player}!`
+  }
+}
