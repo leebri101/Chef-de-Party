@@ -99,6 +99,7 @@ p{
 h5{
     font-family: Cormorant Garamond, serif, italic;
     color: rgb(var(--color-six));
+    font-weight: bolder;
     margin: 0.5em 0;
 
 }
@@ -209,6 +210,7 @@ input {
 #quit-button {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
+    font-weight: bold;
     border-color: rgba(var(--color-six), 0.75);
     font-size: 1.2em;
     text-align: center;
