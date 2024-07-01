@@ -20,9 +20,9 @@ const choiceOne = document.getElementById("answer1");
 const choiceTwo = document.getElementById("answer2");
 const choiceThree = document.getElementById("answer3");
 const choiceFour = document.getElementById("answer4");
+const resultSection = document.getElementById("result");
 const answerBox = document.getElementById("answer-box");
 const answerOptions = answerBox.querySelectorAll(".answer");
-const resultSection = document.getElementById("result");
 const timeBar = document.getElementById("time-left");
 
 
@@ -73,7 +73,7 @@ function startGame() {
 
 // Left click and enter event listener for player to interact to start quiz
 startButton.addEventListener("click", startGame);
-playerName.addEventListener("keypress", function(e) {
+playerName.addEventListener("keypress", function (e) {
   if (e.key === "Enter") {
     startGame();
   }
@@ -84,20 +84,19 @@ let timeLeft;
 const counter = document.getElementById("counter");
 let timer;
 
-
 function startTimer() {
-  timeLeft = 100;
+  timeLeft = 30; // Countdown from 30 seconds
   timer = setInterval(function () {
-    countdown(timeLeft);
-  }, 10000);
+    countdown();
+  }, 1000); // Decrease time every second
 }
 
-function countdown(seconds) {
-  if (seconds === 0) {
+function countdown() {
+  if (timeLeft === 0) {
     counter.innerHTML = `0`;
     nextQuestion();
   } else {
-    timeLeftWidth = timeLeftWidth - (100 / 30);
+    timeLeftWidth = timeLeftWidth -(100 - 30);
     timeLeft -= 1;
     counter.innerHTML = timeLeft;
     timeBar.style.width = timeLeftWidth + "%";
@@ -113,9 +112,8 @@ function countdown(seconds) {
 
 let timeLeftWidth = 100;
 
-//
 function resetTimer () {
-  counter.innerHTML = `100`;
+  counter.innerHTML = `30`;
   timeLeftWidth = 100;
   timeBar.style.width  = "100%";
   timeBar.style.backgroundColor = "rgb(85, 107, 47)";
@@ -144,16 +142,16 @@ function shuffle(array) {
   
   return array;
 }
-
+/**
+ * 
+ */
 function nextQuestion(){
   resetAnswerStyles();
   resetTimer();
-  questionCount +=1;
+  questionCount += 1;
   scoreTracker();
   if (questionCount < quizLength){
     formQuizQuestion(questionCount);
-    progressBar(questionCount);
-    startTimer();
     progressBar(questionCount);
     startTimer();
   }else{
@@ -164,7 +162,10 @@ function nextQuestion(){
 
 nextButton.addEventListener("click", nextQuestion);
 
-//
+/**
+ * 
+ * 
+ */
 function formQuizQuestion(questionID){
   let currentQuestionNum = document.getElementById("current-question");
   let totalQuestions = document.getElementById("total-questions");
@@ -203,7 +204,7 @@ function choiceAnswer(event){
 
 function evaluateAnswer(targetID){
   let playerAnswer = document.getElementById(targetID).innerText;
-  let correctAnswer = quizQuestions[questionCount].correctAns;
+  let correctAnswer = quizQuestion[questionCount].correctAns;
   if (playerAnswer == correctAnswer){
     correctNum++;
     yaynay = "correct";
@@ -212,7 +213,9 @@ function evaluateAnswer(targetID){
   }
 }
 
-
+/**
+ * The 
+ */
 function scoreTracker(){
   let trackerColor;
   switch(yaynay){
@@ -229,10 +232,20 @@ function scoreTracker(){
       break;
   }
   document.getElementsByClassName("dot")[questionCount - 1].style.backgroundColor = trackerColor;
-
+/**
+ * Yaynay variable for "unanswered" questions to a custom color shade of grey.
+ * Which resets the feedback for every question.
+ * Which can be overridden by the click event listener,
+ * passing to choiceAnswer() function which calls evaluateAnswer().
+ */
   yaynay = "unanswered";
 }
 
+/**
+ * Only called once the quiz has reached the quizLength of 10 questions.
+ * Which then displays the header & footer,
+ * to display the results section.
+ */
 function endOfQuiz(){
   quizSection.style.display = "none";
   resultSection.style.display = "inline-flex";
@@ -241,12 +254,17 @@ function endOfQuiz(){
   userResult();
 }
 
+/**
+ * Called on the endOfQuiz function 
+ * which will display the amount of correct answers
+ * by the user/the quiz total questions
+ */
 function userResult(){
   const scoreResult = document.querySelector("#score");
   let resultOutput = `${correctNum} / ${questionCount}`;
   scoreResult.innerHTML = resultOutput; 
 
-
+  // Feedback display which shows the player's name and message of the total score
   const playerFeedback = document.querySelector("#player-feedback");
   let player = playerName.value;
   if (correctNum <= 2){
