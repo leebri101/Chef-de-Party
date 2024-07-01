@@ -145,6 +145,25 @@ function shuffle(array) {
   return array;
 }
 
+function nextQuestion(){
+  resetAnswerStyles();
+  resetTimer();
+  questionCount +=1;
+  scoreTracker();
+  if (questionCount < quizLength){
+    formQuizQuestion(questionCount);
+    progressBar(questionCount);
+    startTimer();
+    progressBar(questionCount);
+    startTimer();
+  }else{
+    counter.innerHTML= ``;
+    endOfQuiz();
+  }
+}
+
+nextButton.addEventListener("click", nextQuestion);
+
 //
 function formQuizQuestion(questionID){
   let currentQuestionNum = document.getElementById("current-question");
@@ -154,7 +173,7 @@ function formQuizQuestion(questionID){
   question.innerHTML = quizQuestion[questionID].questionText;
   choiceOne.innerHTML = quizQuestion[questionID].choices[0];
   choiceTwo.innerHTML = quizQuestion[questionID].choices[1];
-  choiceThree.innerHTML = uizQuestion[questionID].choices[2];
+  choiceThree.innerHTML = quizQuestion[questionID].choices[2];
   choiceFour.innerHTML = quizQuestion[questionID].choices[3];
 }
 
