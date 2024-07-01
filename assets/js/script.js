@@ -11,9 +11,9 @@ const landingSection = document.getElementById("landing-page");
 const playButton = document.getElementById("play-button");
 const newGameSection = document.getElementById("start-game");
 const playerName = document.getElementById("player-name");
-const startButton = document.getElementById("start-button");
-const quitButton = document.getElementById("quit-button");
-const nextButton = document.getElementById("next-button");
+const startBtn = document.getElementById("start-button");
+const quitBtn = document.getElementById("quit-button");
+const nextBtn = document.getElementById("next-button");
 const quizSection = document.getElementById("quiz-section");
 const question = document.getElementById("question-box");
 const choiceOne = document.getElementById("answer1");
@@ -47,7 +47,7 @@ function leaveQuiz() {
     landingSection.style.display = "inline-flex";
   }
 
-quitButton.addEventListener("click", leaveQuiz);
+quitBtn.addEventListener("click", leaveQuiz);
 
 /**
  * Once the user has clicked on teh CTA button, the user is prompted to enter their name and click start to begin the quiz.
@@ -72,7 +72,7 @@ function startGame() {
 }
 
 // Left click and enter event listener for player to interact to start quiz
-startButton.addEventListener("click", startGame);
+startBtn.addEventListener("click", startGame);
 playerName.addEventListener("keypress", function (e) {
   if (e.key === "Enter") {
     startGame();
@@ -160,7 +160,7 @@ function nextQuestion(){
   }
 }
 
-nextButton.addEventListener("click", nextQuestion);
+nextBtn.addEventListener("click", nextQuestion);
 
 /**
  * 
@@ -197,7 +197,7 @@ for (let answer of answerOptions){
 
 function choiceAnswer(event){
   resetAnswer();
-  this.setAttribute("class", "answer-selected");
+  event.target.setAttribute("class", "answer-selected");
   let targetID = event.target.id;
   evaluateAnswer(targetID);
 }
@@ -249,8 +249,8 @@ function scoreTracker(){
 function endOfQuiz(){
   quizSection.style.display = "none";
   resultSection.style.display = "inline-flex";
-  headerSection.style.display = "block";
-  footerSection.style.display = "block";
+    headerSection.style.display = "block";
+    footerSection.style.display = "block";
   userResult();
 }
 
