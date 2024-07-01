@@ -343,6 +343,26 @@ input {
     border-radius: 15px;
 }
 
+#results>*{
+    z-index: 1;
+}
+
+#results::before{
+    content: '';
+    position: absolute;
+    width: 250vw;
+    height: 250%;
+    background: linear-gradient(rgba(var(--color-seven), 0.85), rgba(var(--color-nine), 0.85));
+    animation: animate 3s linear infinite;
+}
+#results::after{
+    content: '';
+    inset: 4px;
+    position: absolute;
+    background-color: rgb(var(--color-six));
+    border-radius: 10px;
+}
+
 #return-home a{
     color: rgb(var(--color-seven));
 }
