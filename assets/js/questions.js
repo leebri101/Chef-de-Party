@@ -12,7 +12,7 @@
  * Unintuitive for casual users or with little to no knowledge.
  */
 
-const quizQuestions = [
+const quizQuestion = [
     {
         questionNum: "1",
         questionText: "How many different ways can you cut ingredients?",

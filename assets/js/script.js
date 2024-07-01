@@ -64,7 +64,7 @@ function startGame() {
     newGameSection.style.display = "none";
     headerSection.style.display = "none";
     footerSection.style.display = "none";
-    shuffle(quizQuestions);
+    shuffle(quizQuestion);
     formQuizQuestion(questionCount);
     progressBar(questionCount);
     startTimer();
