@@ -1,11 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Chef de Party is a quiz game about cooking and food">
     <link rel="icon" href="assets/images/cooking.png" type="image/x-icon" sizes="32x32">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Chef de Party</title>
 </head>
 <body class="flex-column flex-center margin-zero width text-center">
@@ -16,11 +18,11 @@
             <i class="fa-solid fa-kitchen-set fa-bounce"></i>
         </h1>
     </header>
-<main class="width">
-    <section id="landing-page">
+    <main class="width">
+        <!-- Landing section with play button -->
+        <section id="landing-page" class="landing-page">
             <i class="fa-solid fa-play" id="play-button"></i>
-    </section>
-    <section>
+        </section>
         <!-- Start-game section -->
         <section id="start-game" class="flex-column rounded-border flex-center max-width">
             <p class="margin-zero padding text-center" style="font-weight:bolder;">
@@ -77,52 +79,51 @@
                     </p>
                 </section>
             </section>
+            <!-- Next Question Navigation -->
+            <section id="quiz-nav" class="flex-center padding text-center margin">
+                <div id="next-button" class="next-button-holder text-center margin padding rounded-border">Next</div>
+            </section>
+            <!-- Point Tracker -->
+            <section id="point-tracker" class="flex-center max-width">
+                <div id="pointone" class="dot"></div>
+                <div id="pointtwo" class="dot"></div>
+                <div id="pointthree" class="dot"></div>
+                <div id="pointfour" class="dot"></div>
+                <div id="pointfive" class="dot"></div>
+                <div id="pointsix" class="dot"></div>
+                <div id="pointseven" class="dot"></div>
+                <div id="pointeight" class="dot"></div>
+                <div id="pointnine" class="dot"></div>
+                <div id="pointten" class="dot"></div>
+            </section>
         </section>
-        <!-- Next Question Navigation -->
-        <section id="quiz-nav" class="flex-center padding text-center margin">
-            <div id="next-button" class="next-button-holder text-center margin padding rounded-border">Next</div>
+        <!-- Results Section -->
+        <section id="results-page" class="results flex-column flex-center max-width rounded-border">
+            <section>
+                <h2>Results:</h2>
+                <h3>You have scored</h3>
+                <h2 id="score">Score Results</h2>
+                <p id="player-feedback">Player Feedback:</p>
+                <h3 id="return-home">
+                    <a href="index.html"><i class="fa-solid fa-arrow-left-long fa-bounce"></i>
+                    Play Again?<i class="fa-solid fa-arrow-right-long fa-bounce"></i></a>
+                </h3>
+            </section>
         </section>
-        <!-- Point Tracker -->
-        <section id="point-tracker" class="flex-center max-width">
-            <div id="pointone" class="dot"></div>
-            <div id="pointtwo" class="dot"></div>
-            <div id="pointthree" class="dot"></div>
-            <div id="pointfour" class="dot"></div>
-            <div id="pointfive" class="dot"></div>
-            <div id="pointsix" class="dot"></div>
-            <div id="pointseven" class="dot"></div>
-            <div id="pointeight" class="dot"></div>
-            <div id="pointnine" class="dot"></div>
-            <div id="pointten" class="dot"></div>
-        </section>
-    </section>
-    <!-- Results Section -->
-    <section id="results-page" class="results flex-column flex-center max-width rounded-border">
-        <section>
-            <h2>Results:</h2>
-            <h3>You have scored</h3>
-            <h2 id="score">Score Results</h2>
-            <p id="player-feedback">Player Feedback:</p>
-            <h3 id="return-home">
-                <a href="index.html"><i class="fa-solid fa-arrow-left-long fa-bounce"></i>
-                Play Again?<i class="fa-solid fa-arrow-right-long fa-bounce"></i></a>
-            </h3>
-        </section>
-    </section>
-</section>
-</main>
+    </main>
     <!--Footer & Github link-->
     <footer>
-            <ul class="links">
-                <li>
-                    <a href="https://github.com/leebri101" target="blank" rel="noopener"
+        <ul class="links">
+            <li>
+                <a href="https://github.com/leebri101" target="blank" rel="noopener"
                     aria-label="Visit my GitHub (opens in a new tab)"><i class="fab fa-github" tabindex="0"></i></a>
-                </li>
-            </ul>
-            <p>&copy;2024 ~Chef de Party~ Leebri</p>
+            </li>
+        </ul>
+        <p>&copy;2024 ~Chef de Party~ Leebri</p>
     </footer>
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/0c878fb726.js"></script>
 </body>
+
 </html>
