@@ -195,14 +195,14 @@ function buildQuizQuestion(questionID){
 //
 function resetAnswer() {
   for(let answer of answerOptions){
-    answer.setAttribute("class", "answer");
+    answer.setAttribute("class", ".answer");
   }
 }
 
 // a yellow dot will indicate to the user which question they are on.
 function progressBar(questionCount){
   document.getElementsByClassName("dot")[questionCount]
-.style.backgroundColor = "rgb(235, 137, 33)";
+.style.backgroundColor = "rgb(248, 183, 0)";
 }
 /**
  * 
@@ -216,7 +216,7 @@ for (let answer of answerOptions){
  */
 function choiceAnswer(event){
   resetAnswerStyles();
-  event.target.setAttribute("class", "answer-selected");
+  this.setAttribute("class", "answer-selected");
   let targetID = event.target.id;
   evaluateAnswer(targetID);
 }

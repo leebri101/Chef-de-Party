@@ -260,14 +260,14 @@ input {
   
 .answer:hover {
     background-color: rgba(var(--color-seven), 0.85);
-    color: white;
+    color: #fff;
     transition: background-color 0.5s ease-out 100ms;
 }
   
 .answer-selected {
     background-color: rgba(var(--color-four), 0.85);
-    color: white;
-    border: 3px solid white;
+    color:#fff;
+    border: 3px solid #fff;
     border-radius: 15px;
     margin: 0.5em 0;
     width: 100%;
@@ -282,6 +282,7 @@ input {
 .next-btn-holder {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(var(--color-one));
 }
   
 #next-btn {
