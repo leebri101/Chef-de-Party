@@ -287,12 +287,12 @@ input {
 #next-btn {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
-    font-size: 1.25em;
+    font-size: 1.2em;
     padding: 0.25em 0.5em;
+    font-weight: 20px;
     text-align: center;
-    border: 3px solid rgba(var(--color-six), 0.75);
+    border-color: 3px solid rgba(var(--color-six), 0.75);
 }
-
 
 /*Timer and question tracker*/
 .quiz-tracker{
@@ -301,6 +301,7 @@ input {
     width: 80vw;
     margin: 2em 0;
     background-color: rgba(var(--color-seven), 0.8);
+    margin: 0.5em 0;
 }
 
 #total-time{

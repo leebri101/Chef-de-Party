@@ -90,7 +90,7 @@ let timer;
   * Functions with the countdown function.
   */
 function startTimer() {
-  timeLeft = 30; // Countdown from 30 seconds
+  timeLeft = 30;
   timer = setInterval(function () {
     countdown();
   }, 1000); // Decrease time every second
@@ -100,7 +100,7 @@ function startTimer() {
 /**
  * 
  */
-function countdown() {
+function countdown(seconds) {
   if (timeLeft === 0) {
     counter.innerHTML = `0`;
     nextQuestion();
@@ -166,8 +166,8 @@ function nextQuestion(){
   scoreTracker();
   if (questionCount < quizLength){
     buildQuizQuestion(questionCount);
-    progressBar(questionCount);
     startTimer();
+    progressBar(questionCount);
   } else{
     counter.innerHTML= ``;
     endOfQuiz();
@@ -208,14 +208,14 @@ function progressBar(questionCount){
  * 
  */
 for (let answer of answerOptions){
-  answer.addEventListener("click", choiceAnswer());
+  answer.addEventListener("click", choiceAnswer);
 }
 
 /**
  * 
  */
 function choiceAnswer(event){
-  resetAnswer();
+  resetAnswerStyles();
   event.target.setAttribute("class", "answer-selected");
   let targetID = event.target.id;
   evaluateAnswer(targetID);
@@ -227,8 +227,9 @@ function choiceAnswer(event){
  */
 function evaluateAnswer(targetID){
   let playerAnswer = document.getElementById(targetID).innerText;
-  let correctAnswer = quizQuestion[questionCount].correctAns;
-  if (playerAnswer == correctAnswer){
+  let correctAnswer = quizQuestions[questionCount].correctAns;
+  
+  if (correctAnswer == playerAnswer ){
     correctNum++;
     yaynay = "correct";
   } else {
