@@ -8,13 +8,13 @@ let questionCount = 0;
 const headerSection = document.getElementById("header");
 const footerSection = document.getElementById("footer");
 const landingSection = document.getElementById("landing-page");
-const playButton = document.getElementById("play-button");
+const playButton = document.getElementById("play-btn");
 const newGameSection = document.getElementById("start-game");
 const playerName = document.getElementById("player-name");
-const startBtn = document.getElementById("start-button");
-const quitBtn = document.getElementById("quit-button");
-const nextBtn = document.getElementById("next-button");
-const quizSection = document.getElementById("quiz-section");
+const startGameBtn = document.getElementById("start-game-button");
+const quitGameBtn = document.getElementById("quit-game-button");
+const nextButton = document.getElementById("next-btn");
+const quizSection = document.getElementById("quiz");
 const question = document.getElementById("question-box");
 const choiceOne = document.getElementById("answer1");
 const choiceTwo = document.getElementById("answer2");
@@ -47,7 +47,7 @@ function leaveQuiz() {
     landingSection.style.display = "inline-flex";
   }
 
-quitBtn.addEventListener("click", leaveQuiz);
+quitGameBtn.addEventListener("click", leaveQuiz);
 
 /**
  * Once the user has clicked on teh CTA button, the user is prompted to enter their name and click start to begin the quiz.
@@ -64,7 +64,7 @@ function startGame() {
     newGameSection.style.display = "none";
     headerSection.style.display = "none";
     footerSection.style.display = "none";
-    shuffle(quizQuestion);
+    shuffle(quizQuestions);
     buildQuizQuestion(questionCount);
     progressBar(questionCount);
     startTimer();
@@ -72,7 +72,7 @@ function startGame() {
 }
 
 // Left click and enter event listener for player to interact to start quiz
-startBtn.addEventListener("click", startGame);
+startGameBtn.addEventListener("click", startGame);
 playerName.addEventListener("keypress", function (e) {
   if (e.key === "Enter") {
     startGame();
@@ -84,6 +84,11 @@ let timeLeft;
 const counter = document.getElementById("counter");
 let timer;
 
+/**
+  * Duration for the each question to be answered for the quiz
+  * every second a loop is placed.
+  * Functions with the countdown function.
+  */
 function startTimer() {
   timeLeft = 30; // Countdown from 30 seconds
   timer = setInterval(function () {
@@ -91,12 +96,16 @@ function startTimer() {
   }, 1000); // Decrease time every second
 }
 
+
+/**
+ * 
+ */
 function countdown() {
   if (timeLeft === 0) {
     counter.innerHTML = `0`;
     nextQuestion();
   } else {
-    timeLeftWidth = timeLeftWidth -(100 - 30);
+    timeLeftWidth = timeLeftWidth -(100 / 30);
     timeLeft -= 1;
     counter.innerHTML = timeLeft;
     timeBar.style.width = timeLeftWidth + "%";
@@ -112,6 +121,9 @@ function countdown() {
 
 let timeLeftWidth = 100;
 
+/**
+ * 
+ */
 function resetTimer () {
   counter.innerHTML = `30`;
   timeLeftWidth = 100;
@@ -142,6 +154,8 @@ function shuffle(array) {
   
   return array;
 }
+
+
 /**
  * 
  */
@@ -154,13 +168,13 @@ function nextQuestion(){
     buildQuizQuestion(questionCount);
     progressBar(questionCount);
     startTimer();
-  }else{
+  } else{
     counter.innerHTML= ``;
     endOfQuiz();
   }
 }
 
-nextBtn.addEventListener("click", nextQuestion);
+nextButton.addEventListener("click", nextQuestion);
 
 /**
  * 
@@ -171,11 +185,11 @@ function buildQuizQuestion(questionID){
   let totalQuestions = document.getElementById("total-questions");
   currentQuestionNum.innerHTML = questionCount + 1;
   totalQuestions.innerHTML = quizLength;
-  question.innerHTML = quizQuestion[questionID].questionText;
-  choiceOne.innerHTML = quizQuestion[questionID].choices[0];
-  choiceTwo.innerHTML = quizQuestion[questionID].choices[1];
-  choiceThree.innerHTML = quizQuestion[questionID].choices[2];
-  choiceFour.innerHTML = quizQuestion[questionID].choices[3];
+  question.innerHTML = quizQuestions[questionID].questionText;
+  choiceOne.innerHTML = quizQuestions[questionID].choices[0];
+  choiceTwo.innerHTML = quizQuestions[questionID].choices[1];
+  choiceThree.innerHTML = quizQuestions[questionID].choices[2];
+  choiceFour.innerHTML = quizQuestions[questionID].choices[3];
 }
 
 //
@@ -185,16 +199,21 @@ function resetAnswer() {
   }
 }
 
-//
+// a yellow dot will indicate to the user which question they are on.
 function progressBar(questionCount){
   document.getElementsByClassName("dot")[questionCount]
 .style.backgroundColor = "rgb(235, 137, 33)";
 }
-
+/**
+ * 
+ */
 for (let answer of answerOptions){
   answer.addEventListener("click", choiceAnswer());
 }
 
+/**
+ * 
+ */
 function choiceAnswer(event){
   resetAnswer();
   event.target.setAttribute("class", "answer-selected");
@@ -202,6 +221,10 @@ function choiceAnswer(event){
   evaluateAnswer(targetID);
 }
 
+/**
+ * 
+ * 
+ */
 function evaluateAnswer(targetID){
   let playerAnswer = document.getElementById(targetID).innerText;
   let correctAnswer = quizQuestion[questionCount].correctAns;

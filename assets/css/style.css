@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quattrocento:wght@400;700&display=swap');
 
 /* Root */
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
 :root {
     /* Gallery */
     --color-one: 236,236,236;
@@ -57,19 +63,20 @@
 }
 /* Body, Header, Footer styling */
 body {
+    color: rgb(var(--color-one));
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: 0;
-    font-family: Quattrocento, serif;
+    font-family: 'Quattrocento', serif;
     background: url(../images/professional-kitchen.webp) no-repeat center center/cover;
     min-height: 100vh;
     text-align: center;
 }
 
 header {
-    position: relative;
+    position: fixed;
     top: 0;
     text-align: center;
     font-family: Cormorant Garamond, serif, italic;
@@ -117,6 +124,7 @@ footer {
     bottom: 0;
     font-size: 2em;
     text-align: center;
+    position: fixed;
 }
   
 footer p {
@@ -146,13 +154,13 @@ display: none;
     display: inline-flex;
 }
 
-#play-button{
+#play-btn{
     font-size: 250px;
     border-radius: 50%;
     color: rgb(var(--color-five), 0.85);
 }
 
-#play-button:hover{
+#play-btn:hover{
     color: rgb(var(--color-seven), 0.85);
     font-size: 250px;
     border-radius: 50%;
@@ -206,8 +214,8 @@ input {
 }
 
 /* Start and Quit buttons */
-#start-button,
-#quit-button {
+#start-game-button,
+#quit-game-button {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
     font-weight: 20px;
@@ -271,12 +279,12 @@ input {
     display: inline-flex;
 }
   
-.next-button-holder {
+.next-btn-holder {
     display: flex;
     justify-content: space-evenly;
 }
   
-#next-button {
+#next-btn {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
     font-size: 1.25em;
@@ -308,7 +316,7 @@ input {
     width: 100%;
     height: 100%;
     text-align: right;
-    background-color: rgb(var(--color-eight));
+    background-color: rgb(var(--color-eight))
 }
 
 /*Question tracker/Feedback */
@@ -317,6 +325,7 @@ input {
     background-color: rgba(var(--color-three)0.80);
     border-radius: 15px;
     width: 80vw;
+    height: 2em;
     justify-content: space-around;
     margin: 0.25em;  
 }

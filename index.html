@@ -19,97 +19,99 @@
         </h1>
     </header>
     <main class="width">
-        <!-- Landing section with play button -->
-        <section id="landing-page" class="landing-page">
-            <i class="fa-solid fa-play" id="play-button"></i>
-        </section>
-        <!-- Start-game section -->
-        <section id="start-game" class="flex-column rounded-border flex-center max-width">
-            <p class="margin-zero padding text-center" style="font-weight:bolder;">
-                Lets see how well your taste is..
-            </p>
-            <h5>(Enter your name and click start to begin the quiz)</h5>
-            <br>
-            <input type="text" id="player-name" class="rounded-border text-center padding" placeholder="Please Enter your name..." required>
-            <br>
-            <section class="start-game-holder margin">
-                <button type="button" id="start-button" class="rounded-border" aria-label="Start the quiz">Start Game</button>
-                <button type="button" id="quit-button" class="rounded-border" aria-label="Go back to home page">Quit Game</button>
+            <!-- Landing section with play button -->
+            <section id="landing-page" class="landing-page">
+                <i class="fa-solid fa-play" id="play-btn"></i>
             </section>
-        </section>
-        <!-- Quiz Section -->
-        <section id="quiz" class="flex-center flex-column rounded-border max-width">
-            <!-- Quiz info -->
-            <section class="quiz-tracker margin rounded-border max-width">
-                <!-- Question Tracker -->
-                <div id="question-number">
-                    <p>Question: <span id="current-question">-</span> of
-                        <span id="total-questions">-</span>
-                    </p>
-                </div>
-                <!-- Timer -->
-                <div id="timer" class="flex-column">
-                    <p>
-                        <i class="fa-solid fa-hourglass-start"></i>
-                        <span id="counter">30</span>
-                    </p>
-                </div>
-                <!-- Time Bar -->
-                <div id="total-time" class="rounded-border">
-                    <div id="time-left" class="rounded-border"></div>
-                </div>
-            </section>
-            <!-- Question and Answer Options -->
-            <section id="question-container" class="flex-center flex-column margin-zero rounded-border max-width">
-                <section id="question-box" class="padding flex-center text-center rounded-border max-width">
-                    <p>QUESTION TEXT</p>
-                </section>
-                <section id="answer-box" class="flex-column flex-center text-center margin-zero max-width">
-                    <p id="answer1" class="text-center answer padding max-width">
-                        ANSWER1 TEXT
-                    </p>
-                    <p id="answer2" class="text-center answer padding max-width">
-                        ANSWER2 TEXT
-                    </p>
-                    <p id="answer3" class="text-center answer padding max-width">
-                        ANSWER3 TEXT
-                    </p>
-                    <p id="answer4" class="text-center answer padding max-width">
-                        ANSWER4 TEXT
-                    </p>
+        <section>
+            <!-- Start-game section -->
+            <section id="start-game" class="flex-column rounded-border flex-center max-width">
+                <p class="margin-zero padding text-center" style="font-weight:bolder;">
+                    Lets see how well your taste is..
+                </p>
+                <h5>(Enter your name and click start to begin the quiz)</h5>
+                <br>
+                <input type="text" id="player-name" class="rounded-border text-center padding" placeholder="Please Enter your name..." required>
+                <br>
+                <section class="start-game-holder margin">
+                    <button type="button" id="start-game-button" class="rounded-border" aria-label="Start the quiz">Start Game</button>
+                    <button type="button" id="quit-game-button" class="rounded-border" aria-label="Go back to home page">Quit Game</button>
                 </section>
             </section>
-            <!-- Next Question Navigation -->
-            <section id="quiz-nav" class="flex-center padding text-center margin">
-                <div id="next-button" class="next-button-holder text-center margin padding rounded-border">Next</div>
+            <!-- Quiz Section -->
+            <section id="quiz" class="flex-center flex-column rounded-border max-width">
+                <!-- Quiz info -->
+                <section class="quiz-tracker margin rounded-border max-width">
+                    <!-- Question Tracker -->
+                    <div id="question-number">
+                        <p>Question: <span id="current-question">-</span> of
+                            <span id="total-questions">-</span>
+                        </p>
+                    </div>
+                    <!-- Timer -->
+                    <div id="timer" class="flex-column">
+                        <p>
+                            <i class="fa-solid fa-hourglass-start fa-shake" ></i>
+                            <span id="counter">30</span>
+                        </p>
+                    </div>
+                    <!-- Time Bar -->
+                    <div id="total-time" class="rounded-border">
+                        <div id="time-left" class="rounded-border"></div>
+                    </div>
+                </section>
+                <!-- Question and Answer Options -->
+                <section id="question-container" class="flex-center flex-column margin-zero rounded-border max-width">
+                    <section id="question-box" class="padding flex-center text-center rounded-border max-width">
+                        <p>QUESTION TEXT</p>
+                    </section>
+                    <section id="answer-box" class="flex-column flex-center text-center margin-zero max-width">
+                        <p id="answer1" class="text-center answer padding max-width">
+                            ANSWER1 TEXT
+                        </p>
+                        <p id="answer2" class="text-center answer padding max-width">
+                            ANSWER2 TEXT
+                        </p>
+                        <p id="answer3" class="text-center answer padding max-width">
+                            ANSWER3 TEXT
+                        </p>
+                        <p id="answer4" class="text-center answer padding max-width">
+                            ANSWER4 TEXT
+                        </p>
+                    </section>
+                </section>
+                <!-- Next Question Navigation -->
+                <section id="quiz-nav" class="flex-center padding text-center margin">
+                    <div id="next-btn" class="next-btn-holder text-center margin padding rounded-border">Next</div>
+                </section>
+                <!-- Point Tracker -->
+                <section id="point-tracker" class="flex-center max-width">
+                    <div id="pointone" class="dot"></div>
+                    <div id="pointtwo" class="dot"></div>
+                    <div id="pointthree" class="dot"></div>
+                    <div id="pointfour" class="dot"></div>
+                    <div id="pointfive" class="dot"></div>
+                    <div id="pointsix" class="dot"></div>
+                    <div id="pointseven" class="dot"></div>
+                    <div id="pointeight" class="dot"></div>
+                    <div id="pointnine" class="dot"></div>
+                    <div id="pointten" class="dot"></div>
+                </section>
             </section>
-            <!-- Point Tracker -->
-            <section id="point-tracker" class="flex-center max-width">
-                <div id="pointone" class="dot"></div>
-                <div id="pointtwo" class="dot"></div>
-                <div id="pointthree" class="dot"></div>
-                <div id="pointfour" class="dot"></div>
-                <div id="pointfive" class="dot"></div>
-                <div id="pointsix" class="dot"></div>
-                <div id="pointseven" class="dot"></div>
-                <div id="pointeight" class="dot"></div>
-                <div id="pointnine" class="dot"></div>
-                <div id="pointten" class="dot"></div>
+            <!-- Results Section -->
+            <section id="results-page" class="results flex-column flex-center max-width rounded-border">
+                <section>
+                    <h2>Results:</h2>
+                    <h3>You have scored</h3>
+                    <h2 id="score">Score Results</h2>
+                    <p id="player-feedback">Player Feedback:</p>
+                    <h3 id="return-home">
+                        <a href="index.html"><i class="fa-solid fa-arrow-left-long fa-bounce"></i>
+                        Play Again?<i class="fa-solid fa-arrow-right-long fa-bounce"></i></a>
+                    </h3>
+                </section>
             </section>
-        </section>
-        <!-- Results Section -->
-        <section id="results-page" class="results flex-column flex-center max-width rounded-border">
-            <section>
-                <h2>Results:</h2>
-                <h3>You have scored</h3>
-                <h2 id="score">Score Results</h2>
-                <p id="player-feedback">Player Feedback:</p>
-                <h3 id="return-home">
-                    <a href="index.html"><i class="fa-solid fa-arrow-left-long fa-bounce"></i>
-                    Play Again?<i class="fa-solid fa-arrow-right-long fa-bounce"></i></a>
-                </h3>
-            </section>
-        </section>
+        </section>    
     </main>
     <!--Footer & Github link-->
     <footer>
