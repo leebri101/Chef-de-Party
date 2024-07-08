@@ -65,7 +65,7 @@ function startGame() {
     headerSection.style.display = "none";
     footerSection.style.display = "none";
     shuffle(quizQuestion);
-    formQuizQuestion(questionCount);
+    buildQuizQuestion(questionCount);
     progressBar(questionCount);
     startTimer();
   }
@@ -151,7 +151,7 @@ function nextQuestion(){
   questionCount += 1;
   scoreTracker();
   if (questionCount < quizLength){
-    formQuizQuestion(questionCount);
+    buildQuizQuestion(questionCount);
     progressBar(questionCount);
     startTimer();
   }else{
@@ -166,7 +166,7 @@ nextBtn.addEventListener("click", nextQuestion);
  * 
  * 
  */
-function formQuizQuestion(questionID){
+function buildQuizQuestion(questionID){
   let currentQuestionNum = document.getElementById("current-question");
   let totalQuestions = document.getElementById("total-questions");
   currentQuestionNum.innerHTML = questionCount + 1;
