@@ -265,7 +265,7 @@ input {
 }
   
 .answer-selected {
-    background-color: rgba(var(--color-four), 0.85);
+    background-color: rgba(var(--color-six), 0.85);
     color:#fff;
     border: 3px solid #fff;
     border-radius: 15px;

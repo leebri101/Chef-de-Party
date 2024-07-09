@@ -34,18 +34,18 @@ const timeBar = document.getElementById("time-left");
  * Players are also given the option to quit the quiz at any time by clicking the quit button. 
  */
 function startNewGame() {
-    landingSection.style.display = "none";
-    newGameSection.style.display = "inline-flex";
-    playerName.focus();
-  }
+  landingSection.style.display = "none";
+  newGameSection.style.display = "inline-flex";
+  playerName.focus();
+}
       
 playButton.addEventListener("click", startNewGame);
 
 function leaveQuiz() {
-    playerName.value = "";
-    newGameSection.style.display = "none";
-    landingSection.style.display = "inline-flex";
-  }
+  playerName.value = "";
+  newGameSection.style.display = "none";
+  landingSection.style.display = "inline-flex";
+}
 
 quitGameBtn.addEventListener("click", leaveQuiz);
 
@@ -101,9 +101,9 @@ function startTimer() {
  * 
  */
 function countdown(seconds) {
-  if (timeLeft === 0) {
-    counter.innerHTML = `0`;
-    nextQuestion();
+  if (seconds === 0) {
+  counter.innerHTML = `0`;
+  nextQuestion();
   } else {
     timeLeftWidth = timeLeftWidth -(100 / 30);
     timeLeft -= 1;
@@ -152,7 +152,7 @@ function shuffle(array) {
     array[i] = t;
   }
   
-  return array;
+return array;
 }
 
 
@@ -168,8 +168,8 @@ function nextQuestion(){
     buildQuizQuestion(questionCount);
     startTimer();
     progressBar(questionCount);
-  } else{
-    counter.innerHTML= ``;
+  } else {
+    counter.innerHTML = ``;
     endOfQuiz();
   }
 }
@@ -193,7 +193,7 @@ function buildQuizQuestion(questionID){
 }
 
 //
-function resetAnswer() {
+function resetAnswerStyles() {
   for(let answer of answerOptions){
     answer.setAttribute("class", "answer");
   }
@@ -202,7 +202,7 @@ function resetAnswer() {
 // a yellow dot will indicate to the user which question they are on.
 function progressBar(questionCount){
   document.getElementsByClassName("dot")[questionCount]
-.style.backgroundColor = "rgb(248, 183, 0)";
+  .style.backgroundColor = "rgb(248, 183, 0)";
 }
 /**
  * 
@@ -238,7 +238,10 @@ function evaluateAnswer(targetID){
 }
 
 /**
- * The 
+ * The score tracker changes the color of the dot to indicate the player's progress
+ * whether the player answered correctly, incorrectly or left unanswered.
+ * Which is set by teh evaluateAnswer function.
+ * if not answered the color will be a custom shade of grey.
  */
 function scoreTracker(){
   let trackerColor;
@@ -271,11 +274,11 @@ function scoreTracker(){
  * to display the results section.
  */
 function endOfQuiz(){
-  quizSection.style.display = "none";
-  resultSection.style.display = "inline-flex";
-      headerSection.style.display = "block";
-      footerSection.style.display = "block";
-  userResult();
+    quizSection.style.display = "none";
+    resultSection.style.display = "inline-flex";
+        headerSection.style.display = "block";
+        footerSection.style.display = "block";
+    userResult();
 }
 
 /**
@@ -288,10 +291,11 @@ function userResult(){
   let resultOutput = `${correctNum} / ${questionCount}`;
   scoreResult.innerHTML = resultOutput; 
 
-  // Feedback display which shows the player's name and message of the total score
+
   const playerFeedback = document.querySelector("#player-feedback");
   let player = playerName.value;
 
+  // Custom gifs for the feedback depending on score levels
   const gifs ={
     "awful": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzV3NXMwbnBjN3EzeHN0c3h0djdoOG44dG03MjB4dDJoOGJoamdncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xnoIXebk3xYx4Q/giphy.gif",
     "average": "https://media.giphy.com/media/1jdXypkkQJtm41T74W/giphy.gif?cid=790b76117wjx5jb4zltahfielt9miy6yjn1o8px12wnb7xoz&ep=v1_gifs_search&rid=giphy.gif&ct=g",
@@ -299,8 +303,8 @@ function userResult(){
     "excellent": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3VuYnJxZDF2NHVpenQ5ZGd6NDU0eTJuaXU4NXFraGxwbDFvcGY5bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4g8JSKEkCmpwfMiRU/giphy.gif"
   };
   
+  // Feedback display showing the player's name and message of their score with a custom gif.
   const gifContainer = document.querySelector("#gif-container");
-
   if (correctNum <= 2){
     playerFeedback.innerHTML = `WHAT ARE YOU AN IDIOT SANDWICH, YOU DONKEY!!!!!! ${player}!`;
     const gif = document.createElement("img");
