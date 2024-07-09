@@ -20,7 +20,7 @@ const choiceOne = document.getElementById("answer1");
 const choiceTwo = document.getElementById("answer2");
 const choiceThree = document.getElementById("answer3");
 const choiceFour = document.getElementById("answer4");
-const resultSection = document.getElementById("result");
+const resultsSection = document.getElementById("results");
 const answerBox = document.getElementById("answer-box");
 const answerOptions = answerBox.querySelectorAll(".answer");
 const timeBar = document.getElementById("time-left");
@@ -275,7 +275,7 @@ function scoreTracker(){
  */
 function endOfQuiz(){
     quizSection.style.display = "none";
-    resultSection.style.display = "inline-flex";
+    resultsSection.style.display = "inline-flex";
         headerSection.style.display = "block";
         footerSection.style.display = "block";
     userResult();

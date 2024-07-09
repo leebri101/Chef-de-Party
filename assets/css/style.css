@@ -342,13 +342,13 @@ input {
 }
 
 /*Results section*/
-#results-page{
+#results{
     display: none;
     background-color: rgba(var(--color-four), 0.85);
     border-radius: 10px;
     width: 80vw;
     justify-content: space-around;
-    margin: 2em 0;
+    margin: 2.25em 0;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
