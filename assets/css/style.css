@@ -363,14 +363,13 @@ input {
     position: absolute;
     width: 250vw;
     height: 250%;
-    background: linear-gradient(rgba(var(--color-seven), 0.85), rgba(var(--color-nine), 0.85));
     animation: animate 3s linear infinite;
 }
 #results::after{
     content: '';
     inset: 4px;
     position: absolute;
-    background-color: rgb(var(--color-ten));
+    background-color: rgb(var(--color-six), 0.95);
     border-radius: 10px;
 }
 
