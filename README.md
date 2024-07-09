@@ -206,3 +206,4 @@ It was a nice refresher for me to comeback and re-learn JavaScript and to see ho
 * Second color palette [Color Hex](https://www.color-hex.com/color-palette/67983)
 * Background 
 Image [Unsplash](https://unsplash.com/photos/stainless-steel-cooking-pots-on-stove-0EkWTSFXwCc)
+* https://giphy.com/
