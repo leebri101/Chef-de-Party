@@ -374,6 +374,13 @@ input {
     border-radius: 10px;
 }
 
+#gif-container{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 2em 0;
+}
+
 #return-home a{
     color: rgb(var(--color-seven));
 }
@@ -381,19 +388,13 @@ input {
   
 /* External link styling styling */
 .links {
-    text-align: center;
-    padding: 10px;
-}
-  
-.links > li {
-    display: inline-block;
-}
-
-.links > i {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: rgb(var(--color-four));
+    color: rgb(var(--color-seven));
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
 }
 
 /* Reused code for display */
@@ -478,21 +479,37 @@ transform: scale(1.1);
 }
 
 /* Media screen for smaller sizes */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
     /* Update header styling for smaller sizes */
-    header {
-        font-size: 2.5em;
+    header{
+        font-size: 1em;
+        position: fixed;
+        top: 0;
     }
-
+    
     /* Update start game section styling for smaller sizes */
     #start-game {
-        width: 100%;
+        width: 100vw;
+    }
+    ::placeholder{
+        font-size: 0.75em;
+    }
+
+    #play-btn{
+        font-size: 175px;
+        border-radius: 25%;
+    }
+    
+    #play-btn:hover{
+        color: rgb(var(--color-seven), 0.85);
+        font-size: 175px;
+        border-radius: 25%;
     }
 
     /* Update start and quit buttons styling for smaller sizes */
     #start-button,
     #quit-button {
-        font-size: 1em;
+        font-size: 0.75em;
     }
 
     /* Update quiz section styling for smaller sizes */
@@ -547,6 +564,6 @@ transform: scale(1.1);
 
     /* Update kitchen set icon styling for smaller sizes */
     .fa-kitchen-set {
-        font-size: 75px;
+        font-size: 45px;
     }
 }
