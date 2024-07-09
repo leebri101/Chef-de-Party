@@ -247,8 +247,8 @@ input {
   }
   
 .answer {
-    background-color: rgb(var(--color-two));
-    color: white;
+    background-color: rgb(var(--color-six));
+    color: rgb(var(--color-nine));
     border: 3px solid white;
     border-radius: 15px;
     border: 3px solid white;
@@ -265,7 +265,7 @@ input {
 }
   
 .answer-selected {
-    background-color: rgba(var(--color-six), 0.85);
+    background-color: rgba(var(--color-two), 0.85);
     color:#fff;
     border: 3px solid #fff;
     border-radius: 15px;
@@ -344,14 +344,14 @@ input {
 /*Results section*/
 #results{
     display: none;
-    background-color: rgba(var(--color-four), 0.85);
+    background-color: rgba(var(--color-eight), 0.85);
     border-radius: 10px;
-    width: 80vw;
+    width: 90vw;
     justify-content: space-around;
-    margin: 2.25em 0;
+    margin: 2em 0;
     position: relative;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #results>*{
@@ -370,7 +370,7 @@ input {
     content: '';
     inset: 4px;
     position: absolute;
-    background-color: rgb(var(--color-six));
+    background-color: rgb(var(--color-ten));
     border-radius: 10px;
 }
 
@@ -378,7 +378,7 @@ input {
     display: inline-flex;
     justify-content: space-around;
     width: 80vw;
-    margin: 2em 0;
+    height: 250px;
 }
 
 #return-home a{
