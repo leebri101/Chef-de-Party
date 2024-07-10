@@ -65,7 +65,11 @@ During development phase of the quiz, I have been manually testing the site in t
 
 #### **CSS** - https://jigsaw.w3.org/css-validator/
 
-* 
+* CSS page has been tested, no issues found via URL or file upload.
+
+![CSS Validator Icon](doc/screenshots/css-validator-icon%20.png)
+
+![CSS Validator Page](doc/screenshots/css-validator.png)
 
 
 #### **JavaScript** - https://jshint.com/
