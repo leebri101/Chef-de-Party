@@ -98,7 +98,10 @@ function startTimer() {
 
 
 /**
- * 
+ * Each major interval of the timer it evaluates if the timer has not reached 0.
+ * if it dose reach 0 it will call the nextQuestion function.
+ * if the timer still remains it will decrease the timeLeft by 1 second.
+ * which also decreases the width of the timeBar to show a new number each time.
  */
 function countdown(seconds) {
   if (seconds === 0) {
@@ -122,7 +125,9 @@ function countdown(seconds) {
 let timeLeftWidth = 100;
 
 /**
- * 
+ * Timer reset can be called from the nextQuestion() function.
+ * Either when the timer reaches 0 or the player has clicked
+ * on the next button after answering the question.
  */
 function resetTimer () {
   counter.innerHTML = `30`;
@@ -157,7 +162,12 @@ return array;
 
 
 /**
- * 
+ * The nextQuestion() function is only way tro call the other functions to:
+ * 1. Reset the timer/answer styles and values to default. 
+ * 2. Allow for interaction for paging and moving onto the next question.
+ * 3. Manipulating the DOM elements within the scoreTracker to allow users to see the progress of the quiz.
+ * 4. Restarting the timer to show the users how much time they have left to answer.
+ * 5. To check if the user has reached the max length of 10 questions.
  */
 function nextQuestion(){
   resetAnswerStyles();
@@ -177,8 +187,9 @@ function nextQuestion(){
 nextButton.addEventListener("click", nextQuestion);
 
 /**
- * 
- * 
+ * A simple function which form the Q&A (Questions & Answers) for the quizQuestions.
+ * which is called from teh startGame() function which will display the first question.
+ * or from the nextQuestion() function which displays the rest of teh questions.
  */
 function buildQuizQuestion(questionID){
   let currentQuestionNum = document.getElementById("current-question");
@@ -192,27 +203,35 @@ function buildQuizQuestion(questionID){
   choiceFour.innerHTML = quizQuestions[questionID].choices[3];
 }
 
-//
+/**
+ * Once called it will reset the answer styles to default,
+ * for the selected answer element for the next question.
+ */ 
 function resetAnswerStyles() {
   for(let answer of answerOptions){
     answer.setAttribute("class", "answer");
   }
 }
 
-// a yellow dot will indicate to the user which question they are on.
+// A yellow dot will indicate to the user which question they are on.
 function progressBar(questionCount){
   document.getElementsByClassName("dot")[questionCount]
   .style.backgroundColor = "rgb(248, 183, 0)";
 }
 /**
- * 
+ * Loop has been set in place with an event listener.
+ * Once it has been triggered it calls the choiceAnswer function,
+ * to change the class for the selected answer.
+ * THe class is applied within the styling sheet to make the selected answer stand out to teh user.
  */
 for (let answer of answerOptions){
   answer.addEventListener("click", choiceAnswer);
 }
 
 /**
- * 
+ * A click event listener for the player to choose an answer.
+ * Which then resets the answer styles to default.
+ * The appearance of the selected answer will change to a different color.
  */
 function choiceAnswer(event){
   resetAnswerStyles();
@@ -222,8 +241,11 @@ function choiceAnswer(event){
 }
 
 /**
- * 
- * 
+ * For each question the player answers, it will evaluate the answer
+ * to the correct answer which is stored in the questions.js (quizQuestions) array.
+ * The "correct" or "incorrect" returned value is indicated within the scoreTracker function.
+ * It will the display feedback to the user in switch case statement.
+ * Consisting of 3 colors, green for correct, red for incorrect and gray for unanswered.
  */
 function evaluateAnswer(targetID){
   let playerAnswer = document.getElementById(targetID).innerText;
