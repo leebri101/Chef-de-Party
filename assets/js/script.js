@@ -92,7 +92,7 @@ let timer;
 function startTimer() {
   timeLeft = 30;
   timer = setInterval(function () {
-    countdown();
+    countdown(timeLeft);
   }, 1000); // Decrease time every second
 }
 
@@ -276,7 +276,7 @@ function scoreTracker(){
 function endOfQuiz(){
     quizSection.style.display = "none";
     resultsSection.style.display = "inline-flex";
-        headerSection.style.display = "block";
+        headerSection.style.display = "none";
         footerSection.style.display = "block";
     userResult();
 }
@@ -300,33 +300,38 @@ function userResult(){
     "awful": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzV3NXMwbnBjN3EzeHN0c3h0djdoOG44dG03MjB4dDJoOGJoamdncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xnoIXebk3xYx4Q/giphy.gif",
     "average": "https://media.giphy.com/media/1jdXypkkQJtm41T74W/giphy.gif?cid=790b76117wjx5jb4zltahfielt9miy6yjn1o8px12wnb7xoz&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "good": "https://media.giphy.com/media/WOYEEd2zPDEqS9r0Xx/giphy.gif?cid=790b76117wjx5jb4zltahfielt9miy6yjn1o8px12wnb7xoz&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-    "excellent": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3VuYnJxZDF2NHVpenQ5ZGd6NDU0eTJuaXU4NXFraGxwbDFvcGY5bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4g8JSKEkCmpwfMiRU/giphy.gif"
+    "excellent": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXQ3d2o0aG4wM3BudjdpYzZzZ2xoemk1aWJ0c2NrN3l2dGIwNHR2biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tJg7obDjt7aOOaPp3h/giphy.gif",
   };
   
-  // Feedback display showing the player's name and message of their score with a custom gif.
+  /**
+   * Feedback display showing the player's name and message of their score with a custom gif.
+   * Dependant on score level and controlled by a range so that whichever score is landed on,
+   * the player will receive a custom message and gif.
+   */ 
   const gifContainer = document.querySelector("#gif-container");
-  if (correctNum <= 2){
+  if (correctNum >= 0 && correctNum <= 3){
     playerFeedback.innerHTML = `WHAT ARE YOU AN IDIOT SANDWICH, YOU DONKEY!!!!!! ${player}!`;
     const gif = document.createElement("img");
     gif.src = gifs.awful;
     gif.alt = "Gordon Ramsay idiot sandwich";
     gifContainer.appendChild(gif);
-  } else if (correctNum <= 5){
+  } else if (correctNum >= 3 && correctNum <= 6){
     playerFeedback.innerHTML = `Well that was nuts ${player}!`;
     const gif = document.createElement("img");
     gif.src = gifs.average;
     gif.alt = "Carmen complimenting from the bear";
     gifContainer.appendChild(gif);
-  } else if (correctNum <= 8){
+  } else if (correctNum >= 6 && correctNum <= 9){
     playerFeedback.innerHTML = `You're a decent cook, but you're not a chef ${player}!`;
     const gif = document.createElement("img");
     gif.src = gifs.good;
     gif.alt = "Carmen praising from The Bear";
     gifContainer.appendChild(gif);
-  } else if (correctNum >= 10){
-    playerFeedback.innerHTML = `Très bon vraiment un chef étoilé Michelin, bravo ${player}!`
+  } else if (correctNum > 9){
+    playerFeedback.innerHTML = `Très bon vraiment un chef étoilé Michelin, Bravo ${player}!`
     const gif = document.createElement("img");
     gif.src = gifs.excellent;
     gif.alt = "Good soup Adam Driver";
+    gifContainer.appendChild(gif);
   }
 }
