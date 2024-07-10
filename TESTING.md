@@ -35,17 +35,17 @@ During development phase of the quiz, I have been manually testing the site in t
 
 
 ### **Known Issues and Solutions and Bugs**
-* 
+* There is only a tiny amount of cosmetic issues which dpo not hinder the main functionality of the quiz but these will bve noted down in their respected numbers for easier understanding. 
 
 * Known Issues:
-  * ![QUIZ TIMER](doc/screenshots/quiz-timer.png)
-
+  1. Issue 1:![QUIZ TIMER](doc/screenshots/quiz-timer.png)
+  Styling issue with spacing of timer function and text. 
 
   * 
     
 
 * Solutions: 
-  * 
+  1. Solution 1: To possibly change some of the styling to ensure that there is more visibility to the user.
 
    
 
@@ -58,7 +58,9 @@ During development phase of the quiz, I have been manually testing the site in t
 
 #### **HTML** - https://validator.w3.org/nu/
 
-* 
+* 0 major errors, 11 warnings have been found mostly due to the lack of headings for the HTML file.
+
+![HTML Validator](doc/screenshots/html-validator.png)
 
 
 #### **CSS** - https://jigsaw.w3.org/css-validator/
