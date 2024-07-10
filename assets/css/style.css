@@ -217,7 +217,7 @@ input {
 #quit-game-button {
     background-color: rgba(var(--color-six), 0.85);
     color: rgba(var(--color-seven));
-    font-weight: 20px;
+    font-weight: bold;
     border-color: rgba(var(--color-six), 0.75);
     font-size: 1.2em;
     text-align: center;
@@ -289,7 +289,7 @@ input {
     color: rgba(var(--color-seven));
     font-size: 1.2em;
     padding: 0.25em 0.5em;
-    font-weight: 20px;
+    font-weight: bold;
     text-align: center;
     border-color: 3px solid rgba(var(--color-six), 0.75);
 }
