@@ -38,7 +38,7 @@ During development phase of the quiz, I have been manually testing the site in t
 * 
 
 * Known Issues:
-  * 
+  * ![QUIZ TIMER](doc/screenshots/quiz-timer.png)
 
 
   * 
@@ -67,17 +67,15 @@ During development phase of the quiz, I have been manually testing the site in t
 
 
 #### **JavaScript** - https://jshint.com/
-
-* 
-
   
 Script JavaScript JSHINT: 
+![JSHINT SCRIPT](doc/screenshots/main-script-screenshot.png)
 
 
 Quiz Questions JSHINT:
 ![JSHINT QUESTIONS](doc/screenshots/quiz-questions-jshint.png)
 
-
+Both have no errors only minor issue with quizQuestions on main script as it is just from the quizQuestions script which is linked onto the HTML file. 
 ### **Lighthouse Scoring**
 
 ### **Testing Conditions:**
