@@ -176,7 +176,7 @@ The project has been deployed with the following steps: -
 3. Under **Source** then, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will then pop up that the project has been successfully deployed with a live link.
 
-You can visit the live link via this URL or on the top the README file- [Tech-Savvy](https://leebri101.github.io/Tech-Savvy/)
+You can visit the live link via this URL or on the top the README file- [Chef-De-Party](https://leebri101.github.io/Chef-de-Party/)
 ***
 
 ## **Credits**
@@ -199,7 +199,7 @@ It was a nice refresher for me to comeback and re-learn JavaScript and to see ho
 * Color picker site [Image Color Picker](https://imagecolorpicker.com/)
 * Image compressions: [TinyPNG](https://tinypng.com/) 
 * For the basic and simple wire-frame design as a professional and practical project planning platform [Figma](https://www.figma.com/?fuid=).
-* Alternative image converter. [FreeConvert](https://www.freeconvert.com/).
+* Alternative image converter [FreeConvert](https://www.freeconvert.com/).
 * Image compress/converter [Convertio](https://convertio.co/). 
 * Google fonts for restaurants [Medium](https://medium.com/bentobox-design/font-pairings-our-favorite-google-fonts-for-restaurants-d157e4c5e5fd).
 * First color palette [Color Hex](https://www.color-hex.com/color-palette/10105)
