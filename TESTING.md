@@ -10,11 +10,11 @@
   * [**Lighthouse Scoring**](#lighthouse-scoring)
 
 ## **Development Testing Phase**
-During development phase of the quiz, I have been manually testing the site in two ways:-
+During development phase of the quiz, I have been manually testing project in two ways:-
     
-1. Firstly by publishing the page via GitHub and sharing it with friends and family to test different outcomes and functions within a set controlled environment, and receive feedback on major and small changes that needed to be rectified.
+1. Firstly by publishing the page via GitHub and sharing it with friends and family to test different outcomes and functions within a set controlled environment so that I can see and experiment with the different outcomes, and receive feedback on major and small changes that needed to be rectified.
 
-1. Secondly, self testing the site to ensure that "I" as the creator know what to expect of the site.
+1. Secondly, continuous self testing the site to ensure that "I" as the creator know what to expect of the site.
 
 ### **Manual Testing Phase**
 * During the testing phase, I used three different browsers to ensure consistency & cross-platform connectivity. The browsers used in the tests are:
@@ -35,22 +35,25 @@ During development phase of the quiz, I have been manually testing the site in t
 
 
 ### **Known Issues and Solutions and Bugs**
-* There is only a tiny amount of cosmetic issues which dpo not hinder the main functionality of the quiz but these will bve noted down in their respected numbers for easier understanding. 
+* There is only a tiny amount of cosmetic issues which do not hinder the main functionality of the quiz but these will be noted down in their respected numbers for easier understanding. 
 
 * Known Issues:
   1. Issue 1:![QUIZ TIMER](doc/screenshots/quiz-timer.png)
   Styling issue with spacing of timer function and text. 
 
+  2. Issue 2:![Mobile-results](doc/screenshots/mobile-results.png) Rendering issue with mobile version of gif results.
   * 
     
 
 * Solutions: 
   1. Solution 1: To possibly change some of the styling to ensure that there is more visibility to the user.
 
+  2. Solution 2: To look for the exact same img/gif source or to possibly compress it to help speed up rendering time.
+
    
 
 * Bugs: 
-  * 
+  * Bug 2: 
      
     
 ## **Post Development Testing Phase**
