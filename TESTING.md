@@ -53,7 +53,7 @@ During development phase of the quiz, I have been manually testing project in tw
    
 
 * Bugs: 
-  * Bug 2: 
+  * Bug 2: Rendering issue with gif
      
     
 ## **Post Development Testing Phase**
