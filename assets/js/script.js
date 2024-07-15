@@ -332,7 +332,7 @@ function userResult(){
    */ 
   const gifContainer = document.querySelector("#gif-container");
   if (correctNum >= 0 && correctNum <= 3){
-    playerFeedback.innerHTML = `WHAT ARE YOU AN IDIOT SANDWICH, YOU DONKEY!!!!!! ${player}!`;
+    playerFeedback.innerHTML = `YOU'RE AN IDIOT SANDWICH, YOU DONKEY!!!! ${player}!`;
     const gif = document.createElement("img");
     gif.src = gifs.awful;
     gif.alt = "Gordon Ramsay idiot sandwich";
