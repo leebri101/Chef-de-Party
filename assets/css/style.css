@@ -61,6 +61,7 @@
 .grenadier {
     color: var(--color-ten);
 }
+
 /* Body, Header, Footer styling */
 body {
     color: rgb(var(--color-one));
@@ -107,7 +108,10 @@ h5{
     color: rgb(var(--color-six));
     font-weight: bolder;
     margin: 0.5em 0;
+}
 
+h3{
+    font-size: 1.5rem;
 }
 /* heading animation */
 @keyframes animation {
@@ -375,7 +379,7 @@ input {
 #gif-container{
     display: inline-flex;
     justify-content: space-around;
-    width: 80vw;
+    width: 100%;
     height: 250px;
 }
 
@@ -479,14 +483,19 @@ transform: scale(1.1);
 
 /* Media screen for smaller sizes */
 @media screen and (max-width: 650px) {
-    /* Update header styling for smaller sizes */
     header{
         font-size: 1em;
         position: fixed;
         top: 0;
     }
+    h3{
+        font-size: 1em;
+    }
+
+    footer{
+        font-size: 0.75em;
+    }
     
-    /* Update start game section styling for smaller sizes */
     #start-game {
         width: 100vw;
     }
@@ -495,74 +504,63 @@ transform: scale(1.1);
     }
 
     #play-btn{
-        font-size: 175px;
-        border-radius: 25%;
-    }
-    
-    #play-btn:hover{
-        color: rgb(var(--color-seven), 0.85);
-        font-size: 175px;
-        border-radius: 25%;
+        font-size: 150px;
+        border-radius: 20%;
     }
 
-    /* Update start and quit buttons styling for smaller sizes */
     #start-button,
     #quit-button {
         font-size: 0.75em;
     }
 
-    /* Update quiz section styling for smaller sizes */
     #quiz {
         background-size: cover;
     }
 
-    /* Update question box styling for smaller sizes */
     #question-box {
         width: 90vw;
     }
 
-    /* Update answer box styling for smaller sizes */
     #answer-box {
         width: 90vw;
     }
 
-    /* Update answer styling for smaller sizes */
     .answer {
         margin: 0.25em 0;
     }
 
-    /* Update next button styling for smaller sizes */
+  
     #next-button {
         font-size: 1em;
     }
 
-    /* Update quiz tracker styling for smaller sizes */
     .quiz-tracker {
         width: 90vw;
     }
 
-    /* Update point tracker styling for smaller sizes */
     #point-tracker {
         width: 90vw;
     }
 
-    /* Update results page styling for smaller sizes */
     #results-page {
         width: 90vw;
     }
 
-    /* Update external link styling for smaller sizes */
     .links {
         padding: 5px;
     }
 
-    /* Update icon for title styling for smaller sizes */
     .fab {
         font-size: 2.5rem;
     }
 
-    /* Update kitchen set icon styling for smaller sizes */
     .fa-kitchen-set {
         font-size: 45px;
     }
+
+    #gif-container{
+        width: 100%;
+        height: 175px;
+    }
+    
 }
