@@ -88,12 +88,12 @@ Both have no errors only minor issue with quizQuestions on main script as it is 
 ### **Lighthouse Scoring**
 
 ### **Testing Conditions:**
-* 
-* 
+* Both were tested on the sites both in incognito and as a regular tab due to the fact that running the live link as it is, is affected by the chrome extensions so it was recommended to run the test via incognito to see the difference in performance.
+* But i have also asked a small group of people to run the project on their respected devices, desktop running at optimum +90% 
 
 #### **Desktop Version:**
-* 
-
+![Desktop-lighthouse-score](doc/screenshots/desktop-lighthouse-score.png)
+* No known issues in regarding performance for desktop testing.
 
 **Maintaining the score:**
 
