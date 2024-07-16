@@ -165,7 +165,7 @@ display: none;
     color: rgb(var(--color-seven), 0.85);
     font-size: 250px;
     border-radius: 50%;
-    animation: pulse 3s infinite;
+    animation: pulse 2s infinite;
 }
 
 .pulse {
@@ -178,7 +178,7 @@ display: none;
     }
   
     50% {
-      transform: scale(1.1);
+      transform: scale(1);
     }
   
     100% {
@@ -441,20 +441,6 @@ text-align: center;
 text-decoration: none;
 margin-bottom: 2rem;
 color: #eee;
-}
-
-ul {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-margin: 1rem;
-list-style-type: none;
-font-size: 2rem;
-}
-
-ul li {
-padding: 1rem;
 }
 
 /* Icon for title*/
