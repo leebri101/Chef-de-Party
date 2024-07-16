@@ -92,16 +92,24 @@ Both have no errors only minor issue with quizQuestions on main script as it is 
 * But i have also asked a small group of people to run the project on their respected devices, desktop running at optimum +90% 
 
 #### **Desktop Version:**
+* Same factors at which is affected via desktop
+![Incognito-desktop](doc/screenshots/desktop-chrome.png)
+
+
+* No known issues in regarding performance for desktop testing via incognito.
 ![Desktop-lighthouse-score](doc/screenshots/desktop-lighthouse-score.png)
-* No known issues in regarding performance for desktop testing.
+
 
 **Maintaining the score:**
 
 #### **Mobile Version:**
-* 
-* 
-* 
-* 
+* Same factor as the desktop lighthouse score 
+![Mobile-lighthouse-score](doc/screenshots/mobile-chrome.png)
+
+
+* Tested via incognito mode on chrome
+![Incognito-mobile](doc/screenshots/mobile-lighthouse-score.png)
+
 
 
 
