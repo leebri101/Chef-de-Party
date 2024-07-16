@@ -80,7 +80,7 @@ header {
     top: 0;
     text-align: center;
     font-family: Cormorant Garamond, serif, italic;
-    font-size: 3.25em;
+    font-size: 3em;
     font-weight: bolder;
     color: rgb(var(--color-one));
     text-shadow: 1.5px 1.5px 1.5px rgb(var(--color-six));
@@ -92,6 +92,7 @@ header h1 {
 
 header span {
     color: rgb(var(--color-five));
+    font-size: 0.75em;
 }
 
 .animated {
