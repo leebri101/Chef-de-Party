@@ -92,7 +92,7 @@ header span {
 }
 
 .animated {
-    animation: animation 3s ease;
+    animation: animation 1s ease;
 }
 
 p{
@@ -462,7 +462,6 @@ padding: 1rem;
 font-size: 3.5rem;
 }
 .fa-kitchen-set{
-    font-size: 125px;
     color:rgb(var(--color-three));
 }
 /* Transitions for Github hover animations */
@@ -559,6 +558,10 @@ transform: scale(1.1);
         width: 100%;
         height: 175px;
     }
-    
-}
 
+    #quiz {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
