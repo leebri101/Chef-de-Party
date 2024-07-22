@@ -124,7 +124,7 @@ footer {
     bottom: 0;
     font-size: 2em;
     text-align: center;
-    position: static;
+    position: fixed;
 }
   
 footer p {
