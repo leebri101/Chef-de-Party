@@ -87,12 +87,12 @@ There have been some considerable cosmetic changes to the static site to improve
 
 ### *Call To Action Button:*
 * A hover-over design to be able at which users can interact with , which instantly grabs the users attention.
-![Home-page](doc/screenshots/) 
+![Home-page](doc/screenshots/main-page.png) 
     * A simple but clean hover over effect where it transitions into a dark navy blue to match the theme of the page.
     * An active page navigation where it allows the user to hover over the different page links and show which page they are currently on.  
     * Direct web-links where it take the user to my GitHub so that they can manually view each of my projects. 
     
-![Buttons & Page Navi](doc/screenshots/home-page.png)
+![Mobile-version of CTA](doc/screenshots/)
     
 * Mobile version of home page with title, icon, buttons and web-links.
 
