@@ -41,19 +41,19 @@ During development phase of the quiz, I have been manually testing project in tw
   1. Issue 1:![QUIZ TIMER](doc/screenshots/quiz-timer.png)
   Styling issue with spacing of timer function and text. 
 
-  2. Issue 2:![Mobile-results](doc/screenshots/mobile-results.png) Rendering issue with mobile version of gif results.
+  2. 
   * 
     
 
 * Solutions: 
   1. Solution 1: To possibly change some of the styling to ensure that there is more visibility to the user.
 
-  2. Solution 2: To look for the exact same img/gif source or to possibly compress it to help speed up rendering time.
+  2. 
 
    
 
 * Bugs: 
-  * Bug 2: Rendering issue with gif
+  * 
      
     
 ## **Post Development Testing Phase**
