@@ -56,7 +56,6 @@
 * [Q&A Section](doc/wireframes/q-and-a.png)
 * [Results-section](doc/wireframes/feedback.png)
 
-
 There have been some considerable cosmetic changes to the static site to improve the UX, however most of design was kept to original plan on the wire-frames. Some of these changes may include:-
 * An interactive carousel at which the user can browse through manually.
 * A short automatic image gallery.
@@ -160,7 +159,9 @@ The footer page has a wave animation at which it is only used for display purpos
 * Please note that all fonts that have used in the project have been sourced from Google Fonts (quoted in the credits).
 
 ## **Potential-Features**
-* This personal project portfolio page with be an ongoing improvement as I study more advanced coding to change and improve the appearance of the page and functionalities:
+*  
+
+This personal project portfolio page with be an ongoing improvement as I study more advanced coding to change and improve the appearance of the page and functionalities:
     * A possible interactive start up function to allow users to interact with the page (with sound and an insignia). 
     * A fully functional contact form that can redirect users to enable them to contact me. 
     * A different more cleaner animated background with small but subtle features to it like glowing and floating dots.
@@ -169,7 +170,7 @@ The footer page has a wave animation at which it is only used for display purpos
     * These will be some of the possible changes that I would like to implement at a later date with more knowledge that has been gained over time.
 
 ## **Deployment**
-The project has been deployed with the following steps: -
+The project has been deployed with the following steps:-
 
 1. Within the project's [repository](https://github.com/leebri101/Tech-Savvy), you select the **Settings** tab.
 2. Then select the **Pages** menu tab on the left side.
@@ -182,14 +183,14 @@ You can visit the live link via this URL or on the top the README file- [Chef-De
 ## **Credits**
 ### **Honorable mentions**
 It was a nice refresher for me to comeback and re-learn JavaScript and to see how much I can make the quiz a lot better compared to the first one that I have created from the previous course that I attended, but however it was refreshing to see how much I can improve and learn, thinking beyond from last year from learning it from scratch to continuously think. "How can I make this better? What can I do to make it standout more? Or I think this would look better". From this I can see from myself that i have more qualities of being a good Web Developer, but i must credit the following people:
- * John Lamontagne my coding mentor who is amazing at giving me advice, tips & tricks for always improving my projects, not only on a curricular base level, but in a real life perspective too, always giving a thorough analysis to ensure that I always achieve my highest potential as an upcoming developer.
+ * John Lamontagne my coding mentor who is amazing at giving me advice, tips & tricks for always improving my projects, not only on a curricular base level, but in a real life perspective too, always giving a thorough analysis to ensure that I always achieve my highest potential as an upcoming developer but is also good at.
 
-* My older brother for always being available for being a personal guinea pig for my projects (and as a non-coding person) and (with many more to come) and giving me constant constructive feedback all the time.
+* My older brother for always being available for being a personal guinea pig for my projects (and as a non-coding person) and (with many more to come) and giving me constant constructive critical feedback all the time.
 
 ### **General reference:**
-* The project theme was based around a similar concept of the previous quiz, but of a different theme I made but with more changes to make it more effective and functional with little to no bugs as possible to ensure a higher accuracy of clean code as a practice for entering into the industry, but to also make a fun short quiz for users to play. 
+* The project theme was based around a similar concept of the previous project i have made in the past, but of a different theme I made but with more changes to make it more effective, functional and clean with little to no bugs as possible to ensure a higher accuracy of clean code as good practice for entering into the industry, but to also make a fun short quiz for users to play. 
 
-* I have used W3Schools for a basic understanding and learning process for knowing some basic functionality as a way of reminding some stuff, and for general basic coding references and as general encyclopedia for any code related issues or ideas, some of the designs for the main parts of the page are taken from inspiration from CodePen. 
+* I have used W3Schools for a basic understanding and learning process for knowing some basic functionality as a way of reminding some stuff, and for general basic coding references and as general encyclopedia for any code related issues or ideas, some of the designs for the main parts of the page are taken from inspiration from CodePen (but were not used they may have been used a visual reference).
 
 ### **Content:**
 * All icons that were used throughout the project are sourced from [Font-Awesome](https://fontawesome.com/)
