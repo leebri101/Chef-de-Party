@@ -92,11 +92,9 @@ There have been some considerable cosmetic changes to the static site to improve
     * An active page navigation where it allows the user to hover over the different page links and show which page they are currently on.  
     * Direct web-links where it take the user to my GitHub so that they can manually view each of my projects. 
     
-![Mobile-version of CTA](doc/screenshots/)
     
 * Mobile version of home page with title, icon, buttons and web-links.
-
-![Mobile-version](doc/screenshots/mobile-home.png)
+![Mobile-version of CTA](doc/screenshots/mobile-cta.png)
 
 ### **About-Page:**
 * Within this part of the page showcases a brief summary of my life and why I went into coding, my educational background, and a personal message. But as a simple design(subject to change) I have included these subtle floating texts boxes that blend in well with the background page.
