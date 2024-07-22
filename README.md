@@ -65,8 +65,14 @@ There have been some considerable cosmetic changes to the static site to improve
 
 
 ### **Reused Code:**
-* Some of the code that has been used in this project have been re-used from the previous projects due to the simple and effective structure it has on the layout of the final design.  
-    
+* Some of the code that has been used in this project have been re-used from the previous projects due to the simple and effective structure it has on the layout of the final design.
+    * All links have the same hover-over effect at which it changes color and size upon hovering.
+    * Once clicked it will change color. 
+        * Miscellaneous reused content:
+        * General reused code from previous project.
+        ![Generic-Reused code](doc/screenshots/reused-code.png)
+        * Reused root structure code for simplicity of selecting the same colors.
+        ![Reused root code](doc/screenshots/reused-root-code.png)
 
 ## **Current Features on all pages**
 ###  **Home-Page:**
