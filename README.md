@@ -146,9 +146,9 @@ The footer page has a wave animation at which it is only used for display purpos
 * These are the features that have been used in the footer:
     * All the icons that were used in the project have been sourced by through Font Awesome. 
     * A personal copyright has been added in-case of plagiarism.
-    * A personal link to my GitHub page which users can track my coding journey and the link to my Linkedin page.
+    * A personal link to my GitHub page which users can track my coding journey.
 
-    ![Footer-Page](doc/screenshots/footer-page.png)
+    ![Footer](doc/screenshots/footer.png)
 
 ## **Typesetting**
  Throughout the Project Portfolio only two fonts was used throughout for consistency:
