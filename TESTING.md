@@ -25,8 +25,10 @@ During development phase of the quiz, I have been manually testing project in tw
   
 * 
 
-* Google Chrome: 
+* Google Chrome:
 
+No Known issues have been founded running smoothly on Chrome.
+![Google-Chrome](doc/screenshots/google-chrome.png)
 
 * Opera GX:
 
