@@ -32,30 +32,29 @@ No Known issues have been founded running smoothly on Chrome.
 
 * Opera GX:
 
+No Known issues have been founded running smoothly on Opera-GX.
+![Opera-GX](doc/screenshots/opera-gx.png)
 
 * Microsoft Edge:
 
+No Known issues have been founded running smoothly on Edge.
+![Microsoft-Edge](doc/screenshots/microsoft-edge.png)
 
 ### **Known Issues and Solutions and Bugs**
 * There is only a tiny amount of cosmetic issues which do not hinder the main functionality of the quiz but these will be noted down in their respected numbers for easier understanding. 
 
 * Known Issues:
-  1. Issue 1:![QUIZ TIMER](doc/screenshots/quiz-timer.png)
-  Styling issue with spacing of timer function and text. 
-
-  2. 
-  * 
+  * Styling issue with spacing of timer function and text.
+  Issue:![QUIZ TIMER](doc/screenshots/quiz-timer.png)
     
 
 * Solutions: 
-  1. Solution 1: To possibly change some of the styling to ensure that there is more visibility to the user.
-
-  2. 
+  * To change some of the styling to ensure that there is more visibility to the user. 
 
    
 
 * Bugs: 
-  * 
+  * No Bugs have been found when testing.
      
     
 ## **Post Development Testing Phase**
