@@ -13,7 +13,7 @@
 1. [**Current Features on all pages**](#current-features-on-all-pages)
     * [**Home-Page:**](#home-page)
         * [*Title*](#title)
-        * [*Buttons and Page Navi*](#buttons-and-page-navi)
+        * [*Call To Action Button*](#call-to-action-button)
     * [*About-Page:*](#about-page)
     * [*Skills-Page:*](#skills-page)
         * [*Core-Languages*](#core-languages)
@@ -63,7 +63,6 @@ There have been some considerable cosmetic changes to the static site to improve
 * A mixture 10 of cooking/food related questions which are randomized, with 4 options at which the user is prompted to answer the question.
 * A Results/Feedback pop-up which displays the users score and a funny message to the user as well as a animated image or GIF. 
 
-
 ### **Reused Code:**
 * Some of the code that has been used in this project have been re-used from the previous projects due to the simple and effective structure it has on the layout of the final design.
     * All links have the same hover-over effect at which it changes color and size upon hovering.
@@ -76,22 +75,19 @@ There have been some considerable cosmetic changes to the static site to improve
 
 ## **Current Features on all pages**
 ###  **Home-Page:**
-* The home-page will have multiple unique features which the user can do upon navigating which will contain these most notable  features:
-    * A linear gradient background.
-    * Three CTA(Call To Action) buttons which the user can skip directly specific pages.
-    * An automatic image carousel.
-    * Wave animation on the footer.
+* The home-page will have multiple unique features which the user can do upon navigating which will contain these most notable features:
 
 ### *Title:*
 * The Title will include some unique features:-
-    *   The main title of the page includes a two tone text to keep within theme of a restaurant.
+    * The main title of the page includes a two tone text to keep within theme of a restaurant.
     * Upon loading a animation with the title will appear and shifts the letters of the title.
-    * And small cookware icon within the title.. 
+    * And small cookware icon within the title.
 
 ![Title](doc/screenshots/title.png)
 
-### *Buttons and Page Navi:*
-* The main home page will have 3 separate buttons at which the user can navigate without having to manually click & hover over at page links, the most notable features that have been used :
+### *Call To Action Button:*
+* A hover-over design to be able at which users can interact with , which instantly grabs the users attention.
+![Home-page](doc/screenshots/) 
     * A simple but clean hover over effect where it transitions into a dark navy blue to match the theme of the page.
     * An active page navigation where it allows the user to hover over the different page links and show which page they are currently on.  
     * Direct web-links where it take the user to my GitHub so that they can manually view each of my projects. 
