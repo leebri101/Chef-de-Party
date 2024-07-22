@@ -39,7 +39,7 @@
 
 ### **Site Objectives:**
 * Allowing users to easily interact with the page without any technical or difficult complications. 
-* To create a simple, effective and user-friendly quiz page which any can use or take inspiration from.
+* To create a simple, effective and user-friendly quiz page which anyone can use or take inspiration from.
 
 ### **User Stories:**
 * As a user I want to be able to navigate the site with ease.
@@ -50,12 +50,12 @@
 ### **Wire-Frames:**
 * To prevent any digressions towards the project aims & objectives I have made a basic wire-frame via [Figma](https://www.figma.com/board/XEvFJX797o9pZ8cLhqcUOX/Chef-de-Partie?node-id=0-1&t=ahsLbSTdHofYGlSp-0) to refer back to in case of any major changes to the project. 
 
-[Wire-frames](doc/wireframe/) were all designed in Figma for a more simple but effective design. 
-* [Home Page](doc/wireframe/home.png)
-* [About Me Page](doc/wireframe/about.png)
-* [Skills Page](doc/wireframe/skills.png)
-* [Projects Page](doc/wireframe/projects.png)
-* [Contact Page](doc/wireframe/contact.png)
+[Wireframes](doc/wireframes/) were all designed in Figma for a more simple but effective design. 
+* [Landing-Page](doc/wireframes/landing-page.png)
+* [Placeholder-name](doc/wireframes/placeholder-name.png)
+* [Q&A Section](doc/wireframes/q-and-a.png)
+* [Results-section](doc/wireframes/feedback.png)
+
 
 There have been some considerable cosmetic changes to the static site to improve the UX, however most of design was kept to original plan on the wire-frames. Some of these changes may include:-
 * An interactive carousel at which the user can browse through manually.
