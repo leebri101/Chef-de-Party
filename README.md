@@ -9,6 +9,7 @@
     * [**User Stories**](#user-stories)
     * [**Site Objectives**](#site-objectives)
     * [**Wire-Frames**](#wire-frames)
+    * [**Reused Code**](#reused-code)
 1. [**Current Features on all pages**](#current-features-on-all-pages)
     * [**Home-Page:**](#home-page)
         * [*Title*](#title)
@@ -50,19 +51,22 @@
 ### **Wire-Frames:**
 * To prevent any digressions towards the project aims & objectives I have made a basic wire-frame via [Figma](https://www.figma.com/board/XEvFJX797o9pZ8cLhqcUOX/Chef-de-Partie?node-id=0-1&t=ahsLbSTdHofYGlSp-0) to refer back to in case of any major changes to the project. 
 
-[Wireframes](doc/wireframes/) were all designed in Figma for a more simple but effective design. 
+[Wire-frame](doc/wireframes/) were all designed in Figma for a more simple but effective design. 
 * [Landing-Page](doc/wireframes/landing-page.png)
 * [Placeholder-name](doc/wireframes/placeholder-name.png)
 * [Q&A Section](doc/wireframes/q-and-a.png)
 * [Results-section](doc/wireframes/feedback.png)
 
 There have been some considerable cosmetic changes to the static site to improve the UX, however most of design was kept to original plan on the wire-frames. Some of these changes may include:-
-* An interactive carousel at which the user can browse through manually.
-* A short automatic image gallery.
-* A blended in contact page (subject to change at a later date).
-* Some animations on some of the typography on the pages. 
-* An animated background on all pages. 
+* An interactive CTA(Call-To-Action) button for the user to use.
+* A placeholder which prompts users to enter their name to start the quiz.
+* A mixture 10 of cooking/food related questions which are randomized, with 4 options at which the user is prompted to answer the question.
+* A Results/Feedback pop-up which displays the users score and a funny message to the user as well as a animated image or GIF. 
 
+
+### **Reused Code:**
+* Some of the code that has been used in this project have been re-used from the previous projects due to the simple and effective structure it has on the layout of the final design.  
+    
 
 ## **Current Features on all pages**
 ###  **Home-Page:**
@@ -74,9 +78,9 @@ There have been some considerable cosmetic changes to the static site to improve
 
 ### *Title:*
 * The Title will include some unique features:-
-    *   The main title of the pages all include an animated logo which was used from interesting insignia from Armored Core VI which eases in upon loading.
-    * Also with an animated title which appears and shifts the letters of the title.
-    * The page navigation will include an active link which highlights what page the user is on, as well as a hover affect which changes color for the user. 
+    *   The main title of the page includes a two tone text to keep within theme of a restaurant.
+    * Upon loading a animation with the title will appear and shifts the letters of the title.
+    * And small cookware icon within the title.. 
 
 ![Title](doc/screenshots/title.png)
 
