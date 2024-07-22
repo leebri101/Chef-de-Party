@@ -51,7 +51,7 @@
 ### **Wire-Frames:**
 * To prevent any digressions towards the project aims & objectives I have made a basic wire-frame via [Figma](https://www.figma.com/board/XEvFJX797o9pZ8cLhqcUOX/Chef-de-Partie?node-id=0-1&t=ahsLbSTdHofYGlSp-0) to refer back to in case of any major changes to the project. 
 
-[Wire-frame](doc/wireframes/) were all designed in Figma for a more simple but effective design. 
+[Wireframes](doc/wireframes/) were all designed in Figma for a more simple but effective design. 
 * [Landing-Page](doc/wireframes/landing-page.png)
 * [Placeholder-name](doc/wireframes/placeholder-name.png)
 * [Q&A Section](doc/wireframes/q-and-a.png)
