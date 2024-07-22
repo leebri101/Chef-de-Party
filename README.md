@@ -152,14 +152,15 @@ The footer page has a wave animation at which it is only used for display purpos
 
 ## **Typesetting**
  Throughout the Project Portfolio only two fonts was used throughout for consistency:
-  * 
+  * Quattrocento:- For the classic french bistro typography look. 
 
-  * 
+  * Cormorant Garamond:- Similar to Quattrocento but more of a softer look for the text. 
 
 * Please note that all fonts that have used in the project have been sourced from Google Fonts (quoted in the credits).
 
 ## **Potential-Features**
-*  
+*  Through some experimentation and testing throughout the quiz I have wanted to make a quiz that is more simple, effective and interactive as possible previous from the first quiz I made from my previous project with future things to add:
+    * Having an interchangeable leader-board which allows other users/players to see their rankings at the end of the results page. Which will change frequently
 
 This personal project portfolio page with be an ongoing improvement as I study more advanced coding to change and improve the appearance of the page and functionalities:
     * A possible interactive start up function to allow users to interact with the page (with sound and an insignia). 
