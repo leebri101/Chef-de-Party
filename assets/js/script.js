@@ -299,7 +299,7 @@ function endOfQuiz(){
     quizSection.style.display = "none";
     resultsSection.style.display = "inline-flex";
         headerSection.style.display = "none";
-        footerSection.style.display = "block";
+        footerSection.style.display = "inline-grid";
     userResult();
 }
 
