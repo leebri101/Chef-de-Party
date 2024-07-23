@@ -121,28 +121,26 @@ Features used:
 
 ![Quiz-Tracker]()
 
+### **Question & Answers:**
+#### *Q&A:*
+Features used:
 
-* The user can manually navigate with ease to have a look at my current skill levels all contained in a simple but effect carousel. Each end will have two chevrons at which have a hover effect and turn a sandy gold upon moving the mouse (as seen above in the Miscellaneous image) 
+* A question with a four choice option answer selector. 
+* Users being able to select any answer before clicking next to proceed to the next question.
+* Each answer having a hover animation with a color changing function,  the color also changes when the user clicks on answer. 
+* The Fisher-Yates method used to shuffle all the questions and answers to any given random order out of ten. So no same question is used twice.
+![Q&A Section]()
 
-![Skill-Page](doc/screenshots/skills.png)
+### **Point-Tracker**
+* 
 
-### **Projects-Page:**
-* The original design of the page was supposed to be within a boxed container within a pyramid scheme of each of the projects at which the user can navigate to which directly sends them to a new tab of each of the projects listed in its respectable links with the inclusion of 2 unique GIFs to display to the user.(I have also placed a disclaimer note on project 3 as the live link is broken and will be amended at a later date).
+![Point-Tracker]()
 
-![Projects-Page](doc/screenshots/project-page.png)
-
-### *Mobile-Version:*
+### *Results-Section*
 * Mobile version of the projects-page with an inter-changeable design of a horizontal view of the projects to a vertical view (Fully view on live link).
 
-![Mobile-Project](doc/screenshots/mobile-project.png)
+![Results-section]()
 
-### **Contact-Page:**
-* The contact page will have a none-working function at which the user can input all their details with the functionality of a contact form but it users will not be able to submit anything (due to the lack of knowledge of PHP).
-![Contact-Page](doc/screenshots/contact-page.png)
-
-### *Mobile-Version*
-* The Mobile version will have a shrunken down version of the contact form with the animation of one of imagery in the background of the contact which is viewable on mobile devices.
-![Mobile-Version](doc/screenshots/mobile-contact.png)
 
 ### **Footer:**
 The footer page has a wave animation at which it is only used for display purposes which blends in very well with the background. 
