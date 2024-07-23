@@ -131,12 +131,21 @@ Features used:
 ![Q&A Section](doc/screenshots/q-and-a-hover-&-click.png)
 
 ### **Point-Tracker**
-* 
+Below the quiz is a score-tracker which displays to the user the following things:
+* To show which question they are currently on
+* Whether they have answered the question correctly.
+* Answered incorrectly.
+* Skipped or did not answer a question.
+    * Which will be represented in these colors:
+        * Yellow = The current question
+        * Green = Correct Answer
+        * Red = Wrong answer
+        * Gray = Skipped or Unanswered
 
-![Point-Tracker]()
+![Point-Tracker](doc/screenshots/quiz-tracker.png)
 
 ### *Results-Section*
-* Mobile version of the projects-page with an inter-changeable design of a horizontal view of the projects to a vertical view (Fully view on live link).
+fea
 
 ![Results-section]()
 
