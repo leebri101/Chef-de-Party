@@ -64,8 +64,9 @@ There have been some considerable cosmetic changes to the static site to improve
     * All links have the same hover-over effect at which it changes color and size upon hovering.
     * Once clicked it will change color. 
         * Miscellaneous reused content:
-        ![Generic-Reused code](doc/screenshots/reused-code.png)
         
+        ![Generic-Reused code](doc/screenshots/reused-code.png)
+
         * Reused root structure code for simplicity of selecting the same colors.
         ![Reused root code](doc/screenshots/reused-root-code.png)
 ***
