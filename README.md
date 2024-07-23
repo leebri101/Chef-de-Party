@@ -14,6 +14,7 @@
     * [**Home-Page:**](#home-page)
         * [*Title*](#title)
         * [*Call To Action Button*](#call-to-action-button)
+        * [*Start-Game-Section*](#start-game-section)
     * [*About-Page:*](#about-page)
     * [*Skills-Page:*](#skills-page)
         * [*Core-Languages*](#core-languages)
@@ -102,14 +103,16 @@ There have been some considerable cosmetic changes to the static site to improve
     * An error handler will display as a red border within the text box if the user has not provided a name or text. 
 
 * It also has two interactive buttons for input, one which is to Start Game which users must enter a name, manually click on the button to start the game/quiz, and teh quit button which it will take the user back onto the main screen where it will display the CTA button.
-    * An event listener is in place where the user has the option to press ENTER which wil have the same response as clicking the Start
+    * An event listener is in place where the user has the option to press ENTER which wil have the same response as clicking the Start-Game button.
+
+![Start-Game-Section](doc/screenshots/start-game.png)
 
 
 An event listener where the user can press the ENTER key which has the same response as clicking the Start game button.
 
   ![About-Page](doc/screenshots/about-page.png)
 
-### **Skills-Page:**
+### ****
 * The Skills page shows a rough but honest estimate of my personal skill levels when it comes to coding but it is displayed in a traffic light system (Green = pro-efficient, Amber = Has some knowledge of it, Red = Hasn't learnt/is currently learning) which shows the user my proficiency levels when it comes to coding but it will have a simple design of a manual JavaScript carousel which the user can manually click on which is comprised of these four components:
     ### *Core-Languages:*
     * Comprises of HTML/CSS and JavaScript 
