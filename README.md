@@ -1,7 +1,7 @@
 # **Chef de Party**
 ## **Site Preview**
 <!-->
-### Click here for the live page 
+### Live link
 (https://leebri101.github.io/Chef-de-Party/)
 ## Contents-Page:
 1. [**Project-Planning**](#project-planning)
@@ -15,7 +15,10 @@
         * [*Title*](#title)
         * [*Call To Action Button*](#call-to-action-button)
         * [*Start-Game-Section*](#start-game-section)
-    * [*About-Page:*](#about-page)
+    * [**Quiz-section:**](#quiz-section)
+        *[]()
+        *[]()
+        *[]()
     * [*Skills-Page:*](#skills-page)
         * [*Core-Languages*](#core-languages)
         * [*Advanced Front-End*](#advanced-front-end)
@@ -74,7 +77,7 @@ There have been some considerable cosmetic changes to the static site to improve
         * Reused root structure code for simplicity of selecting the same colors.
         ![Reused root code](doc/screenshots/reused-root-code.png)
 
-## **Current Features on all pages**
+## **Current Features**
 ###  **Home-Page:**
 * The home-page will have multiple unique features which the user can do upon navigating which will contain these most notable features:
 
@@ -108,31 +111,16 @@ There have been some considerable cosmetic changes to the static site to improve
 ![Start-Game-Section](doc/screenshots/start-game.png)
 
 
-An event listener where the user can press the ENTER key which has the same response as clicking the Start game button.
+### **Quiz-Section:**
+Within the quiz section i will highlight/summarize each of the most notable features of the quiz section. 
+#### *Quiz-Tracker:*
+Features used:
+* An indicator is displayed on the top of the question which tracks the current question the user is on.
+* A timer is also in place with an animation which shakes each time a second is lost within the alloted time length of 30 seconds.
+* A time bar is also there to track the alloted time left on the quiz, however each time a second is lost the bar is reduced in size which will go from green, to yellow and red and will restart.
 
-  ![About-Page](doc/screenshots/about-page.png)
+![Quiz-Tracker]()
 
-### ****
-* The Skills page shows a rough but honest estimate of my personal skill levels when it comes to coding but it is displayed in a traffic light system (Green = pro-efficient, Amber = Has some knowledge of it, Red = Hasn't learnt/is currently learning) which shows the user my proficiency levels when it comes to coding but it will have a simple design of a manual JavaScript carousel which the user can manually click on which is comprised of these four components:
-    ### *Core-Languages:*
-    * Comprises of HTML/CSS and JavaScript 
-
-    ![Core-Languages](doc/screenshots/core.png)
-
-    ### *Advanced Front-End:*
-    * Containing React, Redux and Bootstrap
-
-    ![Front-End](doc/screenshots/advanced-front-end.png)
-    
-    ### *Back-End:*
-    * Comprising of Python, REST Django and SQL
-
-    ![Back-End](doc/screenshots/backend.png)
-
-    ### *Miscellaneous:*
-    * Other components such as Git/GIthub, Figma/Canva and Miro
-
-    ![Miscellaneous](doc/screenshots/other.png)
 
 * The user can manually navigate with ease to have a look at my current skill levels all contained in a simple but effect carousel. Each end will have two chevrons at which have a hover effect and turn a sandy gold upon moving the mouse (as seen above in the Miscellaneous image) 
 
@@ -178,12 +166,7 @@ The footer page has a wave animation at which it is only used for display purpos
     * Having an interchangeable leader-board which allows other users/players to see their rankings at the end of the results page. Which will change frequently
 
 This personal project portfolio page with be an ongoing improvement as I study more advanced coding to change and improve the appearance of the page and functionalities:
-    * A possible interactive start up function to allow users to interact with the page (with sound and an insignia). 
-    * A fully functional contact form that can redirect users to enable them to contact me. 
-    * A different more cleaner animated background with small but subtle features to it like glowing and floating dots.
-    * A typewriter effect for the about page which manually shows a new text box for each new text box. 
-    * a proper animated bar where it displays the skill level of my coding knowledge.
-    * These will be some of the possible changes that I would like to implement at a later date with more knowledge that has been gained over time.
+
 
 ## **Deployment**
 The project has been deployed with the following steps:-
@@ -194,12 +177,13 @@ The project has been deployed with the following steps:-
 4. A message will then pop up that the project has been successfully deployed with a live link.
 
 You can visit the live link via this URL or on the top the README file- [Chef-De-Party](https://leebri101.github.io/Chef-de-Party/)
-***
+
+
 
 ## **Credits**
 ### **Honorable mentions**
 It was a nice refresher for me to comeback and re-learn JavaScript and to see how much I can make the quiz a lot better compared to the first one that I have created from the previous course that I attended, but however it was refreshing to see how much I can improve and learn, thinking beyond from last year from learning it from scratch to continuously think. "How can I make this better? What can I do to make it standout more? Or I think this would look better". From this I can see from myself that i have more qualities of being a good Web Developer, but i must credit the following people:
- * John Lamontagne my coding mentor who is amazing at giving me advice, tips & tricks for always improving my projects, not only on a curricular base level, but in a real life perspective too, always giving a thorough analysis to ensure that I always achieve my highest potential as an upcoming developer but is also good at.
+ * John Lamontagne my coding mentor who is amazing at giving me advice, tips & tricks for always improving my projects, not only on a curricular base level, but in a real life perspective too, and to always make me think on the perspective of both teh user/owner,  always giving a thorough analysis to ensure that I always achieve my highest potential as an upcoming developer 
 
 * My older brother for always being available for being a personal guinea pig for my projects (and as a non-coding person) and (with many more to come) and giving me constant constructive critical feedback all the time.
 
