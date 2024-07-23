@@ -61,7 +61,7 @@ There have been some considerable cosmetic changes to the static site to improve
 * An interactive CTA(Call-To-Action) button for the user to use.
 * A placeholder which prompts users to enter their name to start the quiz.
 * A mixture 10 of cooking/food related questions which are randomized, with 4 options at which the user is prompted to answer the question.
-* A Results/Feedback pop-up which displays the users score and a funny message to the user as well as a animated image or GIF. 
+* A Results/Feedback pop-up which displays the users score and a funny custom message (dependant on the range of the score) to the user as well as a animated image or GIF. 
 
 ### **Reused Code:**
 * Some of the code that has been used in this project have been re-used from the previous projects due to the simple and effective structure it has on the layout of the final design.
@@ -96,8 +96,16 @@ There have been some considerable cosmetic changes to the static site to improve
 * Mobile version of home page with title, icon, buttons and web-links.
 ![Mobile-version of CTA](doc/screenshots/mobile-cta.png)
 
-### **About-Page:**
-* Within this part of the page showcases a brief summary of my life and why I went into coding, my educational background, and a personal message. But as a simple design(subject to change) I have included these subtle floating texts boxes that blend in well with the background page.
+### **Start-Game-section:**
+* Upon clicking into into the CTA button it will enter into teh start-game section with a autofocus placeholder text box which prompts users to enter a name, allowing for more accessibility to users, which is useful on mobile devices, as a text cursor is already highlighted within the text box which saves time for users to manually navigate.  
+
+    * An error handler will display as a red border within the text box if the user has not provided a name or text. 
+
+* It also has two interactive buttons for input, one which is to Start Game which users must enter a name, manually click on the button to start the game/quiz, and teh quit button which it will take the user back onto the main screen where it will display the CTA button.
+    * An event listener is in place where the user has the option to press ENTER which wil have the same response as clicking the Start
+
+
+An event listener where the user can press the ENTER key which has the same response as clicking the Start game button.
 
   ![About-Page](doc/screenshots/about-page.png)
 
