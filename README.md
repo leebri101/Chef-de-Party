@@ -145,10 +145,24 @@ Below the quiz is a score-tracker which displays to the user the following thing
 ![Point-Tracker](doc/screenshots/quiz-tracker.png)
 
 ### *Results-Section*
-fea
+The results page will have the following features:
+* A score rating out of 10.
+* A feedback message dependant on the score.
+* The function to allow users to play again.
+* An animated gif which is also dependant on the score of which the user has scored out of 10. 
+    * As a note most of the gifs used in this were all food/cooking related: 
+        * From Gordon Ramsey to his iconic "Idiot Sandwich Sketch".
+        * To great acting of Jeremy Allen White from the hit Series of "The Bear".
+        * To the iconic meme of Adam Driver saying "Good soup".
 
-![Results-section]()
+Below i will show case the possible outcomes at which the user can get each message with the gifs in the outcomes of the score range:
+* Ranging from 0 to 3![Results-0/3](doc/screenshots/results-0-to-3.png)
 
+* Ranging from 3 to 6![Results-3/6](doc/screenshots/results-3-to-6.png)
+
+* Ranging from 6 to 9![Results-6/9](doc/screenshots/results-6-to-9.png)
+
+* Ranging from 9+ or = 10![Results-9+](doc/screenshots/results-9+.png)
 
 ### **Footer:**
 The footer page has a wave animation at which it is only used for display purposes which blends in very well with the background. 
@@ -157,7 +171,7 @@ The footer page has a wave animation at which it is only used for display purpos
     * A personal copyright has been added in-case of plagiarism.
     * A personal link to my GitHub page which users can track my coding journey.
 
-    ![Footer](doc/screenshots/footer.png)
+![Footer](doc/screenshots/footer.png)
 
 ## **Typesetting**
  Throughout the Project Portfolio only two fonts was used throughout for consistency:
