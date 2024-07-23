@@ -21,6 +21,7 @@
     * [**Footer**](#footer)
     * [**Typesetting**](#typesetting)
 1. [**Potential-Features**](#future-enhancements)
+1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
     * [**Honorable mentions**](#honorable-mentions)
@@ -177,6 +178,8 @@ The footer page has a wave animation at which it is only used for display purpos
     * Having an interchangeable leader-board which allows other users/players to see their rankings at the end of the results page. Which will change frequently upon the score of each individual.
     * Simple sound bites for depending on results.
     * A Quiz at which the user can select upon the difficulty at which that challenge. 
+## **Testing-Phase**
+Full details of the testing phase can be found here: [TESTING.md](TESTING.md)
 
 ## **Deployment**
 The project has been deployed with the following steps:-
