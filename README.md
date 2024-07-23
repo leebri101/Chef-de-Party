@@ -1,6 +1,5 @@
 # **Chef de Party**
 ## **Site Preview**
-<!-->
 ### Live link
 (https://leebri101.github.io/Chef-de-Party/)
 ## Contents-Page:
@@ -18,14 +17,7 @@
     * [**Quiz-section:**](#quiz-section)
         * [*Quiz-Tracker*](#quiz-tracker)
         * [*Q&A-Section*](#question--answers)
-    * [*Results-Section*]()
-        * [*Core-Languages*](#core-languages)
-        * [*Advanced Front-End*](#advanced-front-end)
-        * [*Back-End*](#back-end)
-        * [*Miscellaneous*](#miscellaneous)
-    * [*Projects-Page:*](#projects-page)
-        * [*Mobile-Version*](#mobile-version)
-    * [*Contact-Page*](#contact-page)
+    * [**Results-Section**](#results-section)
     * [**Footer**](#footer)
     * [**Typesetting**](#typesetting)
 1. [**Potential-Features**](#future-enhancements)
@@ -142,6 +134,7 @@ Below the quiz is a score-tracker which displays to the user the following thing
 
 ![Point-Tracker](doc/screenshots/quiz-tracker.png)
 
+***
 ### **Results-Section**
 The results page will have the following features:
 * A score rating out of 10.
