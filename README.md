@@ -126,9 +126,9 @@ Features used:
 * Users will be given the option to select 4 options within the answer boxes. 
 * Users must select an answer before clicking next to proceed onto the next question.
 * Each question will have a hover-over effect which will change the color of the choices at which the user can select to answer the question, which also changes color upon clicking an answer. 
-* Question Shuffler 
-* The Fisher-Yates method used to shuffle all the questions and answers to any given random order out of ten. So no same question is used twice.
-![Q&A Section]()
+* Question Shuffler which enables all 24 questions that have been created in the questions.js script to be shuffled using the [Fisher-Yates](https://bost.ocks.org/mike/shuffle/) method in a random given order out of ten so no question is used twice.
+
+![Q&A Section](doc/screenshots/q-and-a-hover-&-click.png)
 
 ### **Point-Tracker**
 * 
@@ -160,10 +160,9 @@ The footer page has a wave animation at which it is only used for display purpos
 
 ## **Potential-Features**
 *  Through some experimentation and testing throughout the quiz I have wanted to make a quiz that is more simple, effective and interactive as possible previous from the first quiz I made from my previous project with future things to add:
-    * Having an interchangeable leader-board which allows other users/players to see their rankings at the end of the results page. Which will change frequently
-
-This personal project portfolio page with be an ongoing improvement as I study more advanced coding to change and improve the appearance of the page and functionalities:
-
+    * Having an interchangeable leader-board which allows other users/players to see their rankings at the end of the results page. Which will change frequently upon the score of each individual.
+    * Simple sound bites for depending on results.
+    * A Quiz at which the user can select upon the difficulty at which that challenge. 
 
 ## **Deployment**
 The project has been deployed with the following steps:-
@@ -176,11 +175,10 @@ The project has been deployed with the following steps:-
 You can visit the live link via this URL or on the top the README file- [Chef-De-Party](https://leebri101.github.io/Chef-de-Party/)
 
 
-
 ## **Credits**
 ### **Honorable mentions**
-It was a nice refresher for me to comeback and re-learn JavaScript and to see how much I can make the quiz a lot better compared to the first one that I have created from the previous course that I attended, but however it was refreshing to see how much I can improve and learn, thinking beyond from last year from learning it from scratch to continuously think. "How can I make this better? What can I do to make it standout more? Or I think this would look better". From this I can see from myself that i have more qualities of being a good Web Developer, but i must credit the following people:
- * John Lamontagne my coding mentor who is amazing at giving me advice, tips & tricks for always improving my projects, not only on a curricular base level, but in a real life perspective too, and to always make me think on the perspective of both teh user/owner,  always giving a thorough analysis to ensure that I always achieve my highest potential as an upcoming developer 
+It was a nice refresher for me to comeback and re-learn JavaScript and to see how much I can make the quiz a lot better compared to the first one that I have created from the previous course that I attended, but however it was refreshing to see how much I can improve and learn, thinking beyond from last year from learning it from scratch to continuously think. "How can I make this better? What can I do to make it standout more? Or I think this would look better". From this I can see from myself that i have more qualities of being a good Web Developer (but there is  always room for improvement), but i must credit the following people:
+ * John Lamontagne my coding mentor who is amazing at giving me advice, tips & tricks for always improving my projects, not only on a curricular base level, but in a real life perspective too, and to always make me think on the perspective of both teh user/owner, always giving a thorough analysis to ensure that I always achieve my highest potential as an upcoming developer 
 
 * My older brother for always being available for being a personal guinea pig for my projects (and as a non-coding person) and (with many more to come) and giving me constant constructive critical feedback all the time.
 
@@ -205,3 +203,4 @@ It was a nice refresher for me to comeback and re-learn JavaScript and to see ho
 * Background 
 Image [Unsplash](https://unsplash.com/photos/stainless-steel-cooking-pots-on-stove-0EkWTSFXwCc)
 * GIFs used in results section [Giphy](https://giphy.com/)
+* Mike Bostock's method of shuffling: [Fisher-Yates](https://bost.ocks.org/mike/shuffle/)
