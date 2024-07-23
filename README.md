@@ -16,10 +16,9 @@
         * [*Call To Action Button*](#call-to-action-button)
         * [*Start-Game-Section*](#start-game-section)
     * [**Quiz-section:**](#quiz-section)
-        *[]()
-        *[]()
-        *[]()
-    * [*Skills-Page:*](#skills-page)
+        * [*Quiz-Tracker*](#quiz-tracker)
+        * [*Q&A-Section*](#question--answers)
+    * [*Results-Section*]()
         * [*Core-Languages*](#core-languages)
         * [*Advanced Front-End*](#advanced-front-end)
         * [*Back-End*](#back-end)
@@ -76,9 +75,9 @@ There have been some considerable cosmetic changes to the static site to improve
         ![Generic-Reused code](doc/screenshots/reused-code.png)
         * Reused root structure code for simplicity of selecting the same colors.
         ![Reused root code](doc/screenshots/reused-root-code.png)
-
-## **Current Features**
-###  **Home-Page:**
+***
+### **Current Features**
+####  **Home-Page:**
 * The home-page will have multiple unique features which the user can do upon navigating which will contain these most notable features:
 
 ### *Title:*
@@ -107,12 +106,12 @@ There have been some considerable cosmetic changes to the static site to improve
 
 * It also has two interactive buttons for input, one which is to Start Game which users must enter a name, manually click on the button to start the game/quiz, and teh quit button which it will take the user back onto the main screen where it will display the CTA button.
     * An event listener is in place where the user has the option to press ENTER which wil have the same response as clicking the Start-Game button.
-
 ![Start-Game-Section](doc/screenshots/start-game.png)
 
-
+***
 ### **Quiz-Section:**
 Within the quiz section i will highlight/summarize each of the most notable features of the quiz section. 
+
 #### *Quiz-Tracker:*
 Features used:
 * An indicator is displayed on the top of the question which tracks the current question the user is on.
@@ -121,7 +120,6 @@ Features used:
 ![Quiz-Tracker](doc/screenshots/quiz-timer.png)
 
 ### **Question & Answers:**
-#### *Q&A:*
 Features used:
 * Users will be given the option to select 4 options within the answer boxes. 
 * Users must select an answer before clicking next to proceed onto the next question.
@@ -144,7 +142,7 @@ Below the quiz is a score-tracker which displays to the user the following thing
 
 ![Point-Tracker](doc/screenshots/quiz-tracker.png)
 
-### *Results-Section*
+### **Results-Section**
 The results page will have the following features:
 * A score rating out of 10.
 * A feedback message dependant on the score.
