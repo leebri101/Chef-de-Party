@@ -118,16 +118,15 @@ Features used:
 * An indicator is displayed on the top of the question which tracks the current question the user is on.
 * A timer is also in place with an animation which shakes each time a second is lost within the alloted time length of 30 seconds.
 * A time bar is also there to track the alloted time left on the quiz, however each time a second is lost the bar is reduced in size which will go from green, to yellow and red and will restart.
-
-![Quiz-Tracker]()
+![Quiz-Tracker](doc/screenshots/quiz-timer.png)
 
 ### **Question & Answers:**
 #### *Q&A:*
 Features used:
-
-* A question with a four choice option answer selector. 
-* Users being able to select any answer before clicking next to proceed to the next question.
-* Each answer having a hover animation with a color changing function,  the color also changes when the user clicks on answer. 
+* Users will be given the option to select 4 options within the answer boxes. 
+* Users must select an answer before clicking next to proceed onto the next question.
+* Each question will have a hover-over effect which will change the color of the choices at which the user can select to answer the question, which also changes color upon clicking an answer. 
+* Question Shuffler 
 * The Fisher-Yates method used to shuffle all the questions and answers to any given random order out of ten. So no same question is used twice.
 ![Q&A Section]()
 
@@ -205,4 +204,4 @@ It was a nice refresher for me to comeback and re-learn JavaScript and to see ho
 * Second color palette [Color Hex](https://www.color-hex.com/color-palette/67983)
 * Background 
 Image [Unsplash](https://unsplash.com/photos/stainless-steel-cooking-pots-on-stove-0EkWTSFXwCc)
-* https://giphy.com/
+* GIFs used in results section [Giphy](https://giphy.com/)
